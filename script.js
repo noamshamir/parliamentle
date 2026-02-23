@@ -1261,4 +1261,167 @@ window.onload = function () {
     }
 
     hgInitTimeline();
+
+    // ── Admin picker (Cmd+Shift+A) ──
+    var adminOverlay = document.getElementById("admin-overlay");
+    var adminSearch = document.getElementById("admin-search");
+    var adminResults = document.getElementById("admin-results");
+    var adminClose = document.getElementById("admin-close");
+
+    function adminOpen() {
+        adminOverlay.classList.add("visible");
+        adminSearch.value = "";
+        adminRender("");
+        setTimeout(function () {
+            adminSearch.focus();
+        }, 50);
+    }
+
+    function adminCloseModal() {
+        adminOverlay.classList.remove("visible");
+        adminSearch.value = "";
+        adminResults.innerHTML = "";
+    }
+
+    function adminRender(query) {
+        var q = query.toLowerCase().trim();
+        var matches = [];
+        for (var i = 0; i < database.length; i++) {
+            var entry = database[i];
+            var label = entry.country + " " + entry.year;
+            if (q === "" || label.toLowerCase().indexOf(q) !== -1) {
+                matches.push({ entry: entry, index: i, label: label });
+            }
+            if (matches.length >= 80) break;
+        }
+
+        if (matches.length === 0) {
+            adminResults.innerHTML =
+                '<div class="admin-results-empty">No matches</div>';
+            return;
+        }
+
+        var html = "";
+        for (var j = 0; j < matches.length; j++) {
+            var m = matches[j];
+            var pCount = m.entry.parties ? m.entry.parties.length : 0;
+            html +=
+                '<div class="admin-result-row" data-admin-idx="' +
+                m.index +
+                '">' +
+                '<span class="admin-result-country">' +
+                m.entry.country +
+                "</span>" +
+                "<span>" +
+                '<span class="admin-result-year">' +
+                m.entry.year +
+                "</span>" +
+                '<span class="admin-result-parties">' +
+                pCount +
+                (pCount === 1 ? " party" : " parties") +
+                "</span>" +
+                "</span>" +
+                "</div>";
+        }
+        adminResults.innerHTML = html;
+    }
+
+    function adminPick(idx) {
+        var entry = database[idx];
+        if (!entry) return;
+        adminCloseModal();
+
+        // Reset game state like hgLoadTarget but with a specific entry
+        hgCurrentMode = "admin";
+        hgHintStage = 0;
+        var panel = document.getElementById("hg-hint-panel");
+        if (panel) {
+            panel.style.display = "none";
+            panel.innerHTML = "";
+        }
+        document.getElementById("hint-1").style.opacity = "";
+        document.getElementById("hint-1").style.pointerEvents = "";
+        document.getElementById("hint-2").style.opacity = "";
+        document.getElementById("hint-2").style.pointerEvents = "";
+        document.getElementById("hint-3").style.opacity = "";
+        document.getElementById("hint-3").style.pointerEvents = "";
+
+        var history = document.getElementById("hg-history");
+        if (history) history.innerHTML = "";
+        hgCloseModal();
+        var disp = document.getElementById("hg-selected-display");
+        if (disp) disp.innerHTML = "Select a country on the map";
+        var submitBtn = document.getElementById("hg-submit-btn");
+        if (submitBtn) {
+            submitBtn.disabled = false;
+            submitBtn.classList.remove("ready");
+        }
+        var yearInput = document.getElementById("hg-timeline-year");
+        if (yearInput) yearInput.value = "\u2014";
+        var countryLabel = document.getElementById("hg-selected-country");
+        if (countryLabel) countryLabel.textContent = "";
+
+        selectedId = null;
+        selectedName = null;
+        countryGuessed = false;
+        gameActive = true;
+        hgGuessCount = 0;
+        var counter = document.getElementById("hg-guess-counter");
+        if (counter) counter.textContent = "";
+        var allPaths = document.querySelectorAll("path");
+        for (var p = 0; p < allPaths.length; p++) {
+            allPaths[p].classList.remove(
+                "correct",
+                "wrong",
+                "guessed-wrong",
+                "regional",
+                "selected",
+                "is-country-hover",
+                "is-region-hover",
+            );
+        }
+        if (panZoom) panZoom.reset();
+
+        target = entry;
+        var img = document.getElementById("hg-diagram-img");
+        if (img && target) img.src = target.img;
+
+        document.getElementById("mode-daily").classList.remove("active");
+        document.getElementById("mode-random").classList.remove("active");
+    }
+
+    adminSearch.addEventListener("input", function () {
+        adminRender(this.value);
+    });
+
+    adminResults.addEventListener("click", function (e) {
+        var row = e.target.closest(".admin-result-row");
+        if (row) {
+            var idx = parseInt(row.getAttribute("data-admin-idx"), 10);
+            adminPick(idx);
+        }
+    });
+
+    adminClose.addEventListener("click", adminCloseModal);
+    adminOverlay.addEventListener("click", function (e) {
+        if (e.target === adminOverlay) adminCloseModal();
+    });
+
+    document.addEventListener("keydown", function (e) {
+        if (
+            (e.metaKey || e.ctrlKey) &&
+            e.shiftKey &&
+            e.key.toLowerCase() === "a"
+        ) {
+            e.preventDefault();
+            if (adminOverlay.classList.contains("visible")) {
+                adminCloseModal();
+            } else {
+                adminOpen();
+            }
+        }
+        if (e.key === "Escape" && adminOverlay.classList.contains("visible")) {
+            adminCloseModal();
+        }
+    });
 };
