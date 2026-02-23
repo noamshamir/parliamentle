@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="home.css" />
+        <link rel="stylesheet" href="home-game.css" />
+        <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+    </head>
+    <body>
+        <div class="nyt-header">
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="logo"><img src="assets/images/logo.png" /></div>
+        </div>
+        <div class="game-header">
+            <p class="game-name">Parliamentle</p>
+            <p class="date">February 22, 2026</p>
+        </div>
+        <div class="toolbar">
+            <div class="toolbar-modes">
+                <button class="mode-btn active" id="mode-daily">Daily</button>
+                <button class="mode-btn" id="mode-random">Random</button>
+            </div>
+            <div class="toolbar-hints">
+                <div class="hint" id="hint-1">
+                    <img src="assets/images/hint.png" />
+                    <span>1</span>
+                </div>
+                <div class="hint" id="hint-2">
+                    <img src="assets/images/hint.png" />
+                    <span>2</span>
+                </div>
+                <div class="hint" id="hint-3">
+                    <img src="assets/images/hint.png" />
+                    <span>3</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seating chart + hint panel side-by-side -->
+        <div class="hg-diagram-section">
+            <div class="hg-diagram-container">
+                <img
+                    id="hg-diagram-img"
+                    src=""
+                    alt="Parliament Diagram"
+                    referrerpolicy="no-referrer"
+                />
+            </div>
+            <div class="hg-hint-panel" id="hg-hint-panel"></div>
+        </div>
+
+        <div class="hg-divider"></div>
+
+        <!-- Bottom section: map+timeline left, guessing right -->
+        <div class="hg-bottom">
+            <div class="hg-bottom-left">
+                <!-- World map -->
+                <div class="hg-map-wrapper">
+                    <div class="hg-zoom-controls">
+                        <button class="hg-zoom-btn" id="hg-zoom-in">+</button>
+                        <button class="hg-zoom-btn" id="hg-zoom-out">−</button>
+                        <button class="hg-zoom-btn" id="hg-zoom-reset">
+                            ↺
+                        </button>
+                    </div>
+                    <div id="hg-map-placeholder"></div>
+                </div>
+
+                <!-- Selected country name -->
+                <div class="hg-selected-country" id="hg-selected-country"></div>
+
+                <!-- Year timeline -->
+                <div class="hg-timeline-section">
+                    <div class="hg-timeline-viewport" id="hg-timeline-viewport">
+                        <div class="hg-timeline-indicator"></div>
+                        <div
+                            class="hg-timeline-track"
+                            id="hg-timeline-track"
+                        ></div>
+                    </div>
+                    <input
+                        type="text"
+                        class="hg-timeline-year"
+                        id="hg-timeline-year"
+                        value="—"
+                    />
+                </div>
+            </div>
+
+            <div class="hg-bottom-right">
+                <!-- Guess controls -->
+                <div class="hg-guess-section">
+                    <button class="hg-submit-btn" id="hg-submit-btn">
+                        Submit
+                    </button>
+                    <span class="hg-guess-counter" id="hg-guess-counter"></span>
+                </div>
+
+                <!-- Guess history -->
+                <div class="hg-history" id="hg-history"></div>
+            </div>
+        </div>
+
+        <!-- Game-over modal -->
+        <div class="hg-modal-overlay" id="hg-modal-overlay">
+            <div class="hg-modal">
+                <div class="hg-modal-title" id="hg-modal-title"></div>
+                <div class="hg-modal-answer" id="hg-modal-answer"></div>
+                <div class="hg-modal-guesses" id="hg-modal-guesses"></div>
+                <button class="hg-modal-close" id="hg-modal-close">
+                    Close
+                </button>
+            </div>
+        </div>
+
+        <script src="worldmapsvg.js"></script>
+        <script src="regionmap.js"></script>
+        <script src="data.js"></script>
+        <script src="script.js"></script>
+        <script src="home-game.js"></script>
+    </body>
+</html>
