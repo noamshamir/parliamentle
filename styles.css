@@ -1032,3 +1032,35 @@ body {
     font-size: 14px;
     color: #999;
 }
+
+/* Key-sequence indicator */
+.admin-key-indicator {
+    position: fixed;
+    bottom: 14px;
+    right: 14px;
+    display: flex;
+    gap: 5px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+.admin-key-indicator.show {
+    opacity: 1;
+}
+
+.admin-key-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #ccc;
+    transition:
+        background 0.15s,
+        transform 0.15s;
+}
+
+.admin-key-dot.lit {
+    background: #538d4e;
+    transform: scale(1.35);
+}

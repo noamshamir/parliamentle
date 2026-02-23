@@ -1407,22 +1407,64 @@ window.onload = function () {
         if (e.target === adminOverlay) adminCloseModal();
     });
 
-    var adminKeyBuffer = [];
+    var adminSeq = ["n", "o", "a", "m"];
+    var adminProgress = 0;
+    var adminIndicator = document.getElementById("admin-key-indicator");
+    var adminFadeTimer = null;
+
+    function adminUpdateDots() {
+        for (var d = 0; d < adminSeq.length; d++) {
+            var dot = document.getElementById("akd-" + d);
+            if (dot) {
+                if (d < adminProgress) {
+                    dot.classList.add("lit");
+                } else {
+                    dot.classList.remove("lit");
+                }
+            }
+        }
+        if (adminProgress > 0) {
+            adminIndicator.classList.add("show");
+            clearTimeout(adminFadeTimer);
+            adminFadeTimer = setTimeout(function () {
+                adminIndicator.classList.remove("show");
+                adminProgress = 0;
+                adminUpdateDots();
+            }, 2000);
+        } else {
+            adminIndicator.classList.remove("show");
+        }
+    }
+
     document.addEventListener("keydown", function (e) {
         if (e.key === "Escape" && adminOverlay.classList.contains("visible")) {
             adminCloseModal();
             return;
         }
-        adminKeyBuffer.push(e.key.toLowerCase());
-        if (adminKeyBuffer.length > 10) adminKeyBuffer.shift();
-        var seq = adminKeyBuffer.slice(-4).join(",");
-        if (seq === "n,o,a,m") {
-            adminKeyBuffer = [];
-            if (adminOverlay.classList.contains("visible")) {
-                adminCloseModal();
-            } else {
-                adminOpen();
+        // Don't track when typing in an input
+        var tag = (e.target.tagName || "").toLowerCase();
+        if (tag === "input" || tag === "textarea") return;
+
+        var k = e.key.toLowerCase();
+        if (k === adminSeq[adminProgress]) {
+            adminProgress++;
+            adminUpdateDots();
+            if (adminProgress === adminSeq.length) {
+                clearTimeout(adminFadeTimer);
+                adminProgress = 0;
+                adminUpdateDots();
+                if (adminOverlay.classList.contains("visible")) {
+                    adminCloseModal();
+                } else {
+                    adminOpen();
+                }
             }
+        } else if (k === adminSeq[0]) {
+            adminProgress = 1;
+            adminUpdateDots();
+        } else {
+            adminProgress = 0;
+            adminUpdateDots();
         }
     });
 };
