@@ -30848,73 +30848,31 @@ const database = [
         img: "https://commons.wikimedia.org/wiki/Special:FilePath/Canada_Parliament_2025.svg?width=600",
         wiki_link:
             "https://en.wikipedia.org/wiki/2025_Canadian_federal_election#Results",
-        parties: [],
-    },
-    {
-        ids: ["CA"],
-        country: "Canada",
-        year: 2021,
-        region: "North America",
-        img: "https://commons.wikimedia.org/wiki/Special:FilePath/2021_House_of_Commons_of_Canada_election.svg?width=600",
-        wiki_link:
-            "https://en.wikipedia.org/wiki/2021_Canadian_federal_election#Results",
         parties: [
             {
-                name: "Civil Contract (Armenia)",
-                color: "#5169B1",
-                position: "Centre",
-            },
-            {
-                name: "Armenia Alliance",
-                color: "#1D2E69",
-                position: "Centre-left",
-            },
-            {
-                name: "I Have Honor Alliance",
-                color: "#D9222A",
-                position: "Centre-right to right-wing",
-            },
-            {
-                name: "Prosperous Armenia",
-                color: "#183883",
-                position: "Centre-right",
-            },
-            {
-                name: "Hanrapetutyun Party",
-                color: "#F8B202",
-                position: "Centre to centre-right",
-            },
-            {
-                name: "Armenian National Congress",
-                color: "#0033A0",
-                position: "Centre",
-            },
-            {
-                name: "Shirinyan-Babajanyan Alliance of Democrats",
-                color: "#CD383A",
-                position: "Centre to centre-right",
-            },
-            {
-                name: "National Democratic Pole",
-                color: "#292929",
-            },
-            {
-                name: "Bright Armenia",
-                color: "#6D2889",
-                position: "Centre",
-            },
-            {
-                name: "5165 National Conservative Movement Party",
-                color: "#294BAD",
-            },
-            {
-                name: "Liberal Party",
-                color: "#42A46B",
+                name: "Liberal Party of Canada",
+                color: "#D71920",
                 position: "Centre to centre-left",
             },
             {
-                name: "Homeland of Armenians Party",
-                color: "#F8F9FA",
+                name: "Conservative Party of Canada",
+                color: "#1A4782",
+                position: "Centre-right to right-wing",
+            },
+            {
+                name: "Bloc Québécois",
+                color: "#33B2CC",
+                position: "Centre-left",
+            },
+            {
+                name: "New Democratic Party",
+                color: "#F58220",
+                position: "Centre-left to left-wing",
+            },
+            {
+                name: "Green Party of Canada",
+                color: "#3D9B35",
+                position: "Centre-left",
             },
         ],
     },
@@ -30928,61 +30886,34 @@ const database = [
             "https://en.wikipedia.org/wiki/2021_Canadian_federal_election#Results",
         parties: [
             {
-                name: "Civil Contract (Armenia)",
-                color: "#5169B1",
-                position: "Centre",
-            },
-            {
-                name: "Armenia Alliance",
-                color: "#1D2E69",
-                position: "Centre-left",
-            },
-            {
-                name: "I Have Honor Alliance",
-                color: "#D9222A",
-                position: "Centre-right to right-wing",
-            },
-            {
-                name: "Prosperous Armenia",
-                color: "#183883",
-                position: "Centre-right",
-            },
-            {
-                name: "Hanrapetutyun Party",
-                color: "#F8B202",
-                position: "Centre to centre-right",
-            },
-            {
-                name: "Armenian National Congress",
-                color: "#0033A0",
-                position: "Centre",
-            },
-            {
-                name: "Shirinyan-Babajanyan Alliance of Democrats",
-                color: "#CD383A",
-                position: "Centre to centre-right",
-            },
-            {
-                name: "National Democratic Pole",
-                color: "#292929",
-            },
-            {
-                name: "Bright Armenia",
-                color: "#6D2889",
-                position: "Centre",
-            },
-            {
-                name: "5165 National Conservative Movement Party",
-                color: "#294BAD",
-            },
-            {
-                name: "Liberal Party",
-                color: "#42A46B",
+                name: "Liberal Party of Canada",
+                color: "#D71920",
                 position: "Centre to centre-left",
             },
             {
-                name: "Homeland of Armenians Party",
-                color: "#F8F9FA",
+                name: "Conservative Party of Canada",
+                color: "#1A4782",
+                position: "Centre-right to right-wing",
+            },
+            {
+                name: "Bloc Québécois",
+                color: "#33B2CC",
+                position: "Centre-left",
+            },
+            {
+                name: "New Democratic Party",
+                color: "#F58220",
+                position: "Centre-left to left-wing",
+            },
+            {
+                name: "Green Party of Canada",
+                color: "#3D9B35",
+                position: "Centre-left",
+            },
+            {
+                name: "People's Party of Canada",
+                color: "#6B3064",
+                position: "Right-wing to far-right",
             },
         ],
     },
@@ -30996,61 +30927,34 @@ const database = [
             "https://en.wikipedia.org/wiki/2019_Canadian_federal_election#Results",
         parties: [
             {
-                name: "Party of Socialists of the Republic of Moldova",
-                color: "#9C162E",
-                position: "Left-wing",
-            },
-            {
-                name: "Democratic Party of Moldova",
-                color: "#264B9D",
-                position: "Centre-left",
-            },
-            {
-                name: "Democratic Party",
-                color: "#F8F9FA",
-                position: "Center to center-left",
-            },
-            {
-                name: "NOW Platform DA and PAS",
-                color: "#e6c300",
-                position: "Centre-right",
-            },
-            {
-                name: "Șor Party",
-                color: "#5CBB72",
-                position: "Left-wing",
-            },
-            {
-                name: "Our Party",
-                color: "#F8F9FA",
-            },
-            {
-                name: "Liberal Party",
-                color: "#42A46B",
+                name: "Liberal Party of Canada",
+                color: "#D71920",
                 position: "Centre to centre-left",
             },
             {
-                name: "Anti-Mafia Popular Movement Party",
-                color: "#F8F9FA",
+                name: "Conservative Party of Canada",
+                color: "#1A4782",
+                position: "Centre-right to right-wing",
             },
             {
-                name: "Democracy at Home Party",
-                color: "#24247A",
-                position: "Right-wing",
+                name: "Bloc Québécois",
+                color: "#33B2CC",
+                position: "Centre-left",
             },
             {
-                name: "Party of Regions of Moldova",
-                color: "#42ABE2",
+                name: "New Democratic Party",
+                color: "#F58220",
+                position: "Centre-left to left-wing",
             },
             {
-                name: "National Liberal Party",
-                color: "#F8F9FA",
-                position: "Centre-right",
+                name: "Green Party of Canada",
+                color: "#3D9B35",
+                position: "Centre-left",
             },
             {
-                name: "Ecologist Green Party",
-                color: "#F8F9FA",
-                position: "Centre-left Faction: Centre-right",
+                name: "People's Party of Canada",
+                color: "#6B3064",
+                position: "Right-wing to far-right",
             },
         ],
     },
@@ -31064,47 +30968,29 @@ const database = [
             "https://en.wikipedia.org/wiki/2015_Canadian_federal_election#Results",
         parties: [
             {
-                name: "ZDS)",
-                color: "#F8F9FA",
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
             },
             {
-                name: "ZS)",
-                color: "#F8F9FA",
+                name: "Conservative Party of Canada",
+                color: "#1A4782",
+                position: "Centre-right to right-wing",
             },
             {
-                name: "Bridge of Independents",
-                color: "#F8F9FA",
-                position: "Right-wing",
+                name: "New Democratic Party",
+                color: "#F58220",
+                position: "Centre-left to left-wing",
             },
             {
-                name: "Youth Action",
-                color: "#F8F9FA",
-            },
-            {
-                name: "MS–NSH–NV–SU–UDU–Zeleni–ZS)",
-                color: "#F8F9FA",
-            },
-            {
-                name: "RI)",
-                color: "#F8F9FA",
-            },
-            {
-                name: "Sustainable Development of Croatia",
-                color: "#F8F9FA",
+                name: "Bloc Québécois",
+                color: "#33B2CC",
                 position: "Centre-left",
             },
             {
-                name: "NHPS–Pensioners–ZF–DDS)",
-                color: "#F8F9FA",
-            },
-            {
-                name: "Alliance of Hungarian Associations",
-                color: "#e31e24",
-                position: "Right-wing to far-right",
-            },
-            {
-                name: 'Croatian Romani Union "Kali Sara"',
-                color: "#FF0000",
+                name: "Green Party of Canada",
+                color: "#3D9B35",
+                position: "Centre-left",
             },
         ],
     },
@@ -31118,14 +31004,29 @@ const database = [
             "https://en.wikipedia.org/wiki/2011_Canadian_federal_election#Results",
         parties: [
             {
-                name: "Repons Peyizan",
-                color: "#009A17",
-                position: "Centre-right",
+                name: "Conservative Party of Canada",
+                color: "#1A4782",
+                position: "Centre-right to right-wing",
             },
             {
-                name: "Rally of Progressive National Democrats",
-                color: "#008000",
-                position: "Centre-right",
+                name: "New Democratic Party",
+                color: "#F58220",
+                position: "Centre-left to left-wing",
+            },
+            {
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "Bloc Québécois",
+                color: "#33B2CC",
+                position: "Centre-left",
+            },
+            {
+                name: "Green Party of Canada",
+                color: "#3D9B35",
+                position: "Centre-left",
             },
         ],
     },
@@ -31139,14 +31040,24 @@ const database = [
             "https://en.wikipedia.org/wiki/2008_Canadian_federal_election#Results",
         parties: [
             {
-                name: "Kuomintang",
-                color: "#000099",
+                name: "Conservative Party of Canada",
+                color: "#1A4782",
                 position: "Centre-right to right-wing",
             },
             {
-                name: "Democratic Progressive Party",
-                color: "#1B9431",
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "Bloc Québécois",
+                color: "#33B2CC",
                 position: "Centre-left",
+            },
+            {
+                name: "New Democratic Party",
+                color: "#F58220",
+                position: "Centre-left to left-wing",
             },
         ],
     },
@@ -31160,32 +31071,24 @@ const database = [
             "https://en.wikipedia.org/wiki/2006_Canadian_federal_election#Results",
         parties: [
             {
-                name: "National Resistance Movement",
-                color: "#FFD700",
-                position: "Far-right",
+                name: "Conservative Party of Canada",
+                color: "#1A4782",
+                position: "Centre-right to right-wing",
             },
             {
-                name: "Forum for Democratic Change",
-                color: "#00BFFF",
-                position: "Centre-right",
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
             },
             {
-                name: "Uganda People's Congress",
-                color: "#E70000",
+                name: "Bloc Québécois",
+                color: "#33B2CC",
+                position: "Centre-left",
+            },
+            {
+                name: "New Democratic Party",
+                color: "#F58220",
                 position: "Centre-left to left-wing",
-            },
-            {
-                name: "Democratic Party (Uganda)",
-                color: "#0C713A",
-                position: "Centre-right",
-            },
-            {
-                name: "CP",
-                color: "#F8F9FA",
-            },
-            {
-                name: "Justice Forum",
-                color: "#2D3094",
             },
         ],
     },
@@ -31199,8 +31102,24 @@ const database = [
             "https://en.wikipedia.org/wiki/2004_Canadian_federal_election#Results",
         parties: [
             {
-                name: "no",
-                color: "#F8F9FA",
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "Conservative Party of Canada",
+                color: "#1A4782",
+                position: "Centre-right to right-wing",
+            },
+            {
+                name: "Bloc Québécois",
+                color: "#33B2CC",
+                position: "Centre-left",
+            },
+            {
+                name: "New Democratic Party",
+                color: "#F58220",
+                position: "Centre-left to left-wing",
             },
         ],
     },
@@ -31212,7 +31131,33 @@ const database = [
         img: "https://commons.wikimedia.org/wiki/Special:FilePath/2000_Canadian_parliament.svg?width=600",
         wiki_link:
             "https://en.wikipedia.org/wiki/2000_Canadian_federal_election#Results",
-        parties: [],
+        parties: [
+            {
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "Canadian Alliance",
+                color: "#00AB66",
+                position: "Centre-right to right-wing",
+            },
+            {
+                name: "Bloc Québécois",
+                color: "#33B2CC",
+                position: "Centre-left",
+            },
+            {
+                name: "New Democratic Party",
+                color: "#F58220",
+                position: "Centre-left to left-wing",
+            },
+            {
+                name: "Progressive Conservative Party of Canada",
+                color: "#6495ED",
+                position: "Centre to centre-right",
+            },
+        ],
     },
     {
         ids: ["CA"],
@@ -31222,7 +31167,33 @@ const database = [
         img: "https://commons.wikimedia.org/wiki/Special:FilePath/1997_Canadian_parliament.svg?width=600",
         wiki_link:
             "https://en.wikipedia.org/wiki/1997_Canadian_federal_election#Results",
-        parties: [],
+        parties: [
+            {
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "Reform Party of Canada",
+                color: "#0C499C",
+                position: "Right-wing",
+            },
+            {
+                name: "Bloc Québécois",
+                color: "#33B2CC",
+                position: "Centre-left",
+            },
+            {
+                name: "New Democratic Party",
+                color: "#F58220",
+                position: "Centre-left to left-wing",
+            },
+            {
+                name: "Progressive Conservative Party of Canada",
+                color: "#6495ED",
+                position: "Centre to centre-right",
+            },
+        ],
     },
     {
         ids: ["CA"],
@@ -31234,8 +31205,29 @@ const database = [
             "https://en.wikipedia.org/wiki/1993_Canadian_federal_election#Results",
         parties: [
             {
-                name: "no",
-                color: "#F8F9FA",
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "Bloc Québécois",
+                color: "#33B2CC",
+                position: "Centre-left",
+            },
+            {
+                name: "Reform Party of Canada",
+                color: "#0C499C",
+                position: "Right-wing",
+            },
+            {
+                name: "New Democratic Party",
+                color: "#F58220",
+                position: "Centre-left to left-wing",
+            },
+            {
+                name: "Progressive Conservative Party of Canada",
+                color: "#6495ED",
+                position: "Centre to centre-right",
             },
         ],
     },
@@ -31249,8 +31241,19 @@ const database = [
             "https://en.wikipedia.org/wiki/1988_Canadian_federal_election#Results_by_province",
         parties: [
             {
-                name: "no",
-                color: "#F8F9FA",
+                name: "Progressive Conservative Party of Canada",
+                color: "#6495ED",
+                position: "Centre to centre-right",
+            },
+            {
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "New Democratic Party",
+                color: "#F58220",
+                position: "Centre-left to left-wing",
             },
         ],
     },
@@ -31264,8 +31267,19 @@ const database = [
             "https://en.wikipedia.org/wiki/1984_Canadian_federal_election#National_results",
         parties: [
             {
-                name: "no",
-                color: "#F8F9FA",
+                name: "Progressive Conservative Party of Canada",
+                color: "#6495ED",
+                position: "Centre to centre-right",
+            },
+            {
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "New Democratic Party",
+                color: "#F58220",
+                position: "Centre-left to left-wing",
             },
         ],
     },
@@ -31279,8 +31293,19 @@ const database = [
             "https://en.wikipedia.org/wiki/1980_Canadian_federal_election#National_results",
         parties: [
             {
-                name: "no",
-                color: "#F8F9FA",
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "Progressive Conservative Party of Canada",
+                color: "#6495ED",
+                position: "Centre to centre-right",
+            },
+            {
+                name: "New Democratic Party",
+                color: "#F58220",
+                position: "Centre-left to left-wing",
             },
         ],
     },
@@ -31294,8 +31319,24 @@ const database = [
             "https://en.wikipedia.org/wiki/1979_Canadian_federal_election#National_results",
         parties: [
             {
-                name: "no",
-                color: "#F8F9FA",
+                name: "Progressive Conservative Party of Canada",
+                color: "#6495ED",
+                position: "Centre to centre-right",
+            },
+            {
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "New Democratic Party",
+                color: "#F58220",
+                position: "Centre-left to left-wing",
+            },
+            {
+                name: "Social Credit Party of Canada",
+                color: "#2EC761",
+                position: "Right-wing",
             },
         ],
     },
@@ -31307,7 +31348,28 @@ const database = [
         img: "https://commons.wikimedia.org/wiki/Special:FilePath/1974_Canadian_parliament.svg?width=600",
         wiki_link:
             "https://en.wikipedia.org/wiki/1974_Canadian_federal_election#National_results",
-        parties: [],
+        parties: [
+            {
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "Progressive Conservative Party of Canada",
+                color: "#6495ED",
+                position: "Centre to centre-right",
+            },
+            {
+                name: "New Democratic Party",
+                color: "#F58220",
+                position: "Centre-left to left-wing",
+            },
+            {
+                name: "Social Credit Party of Canada",
+                color: "#2EC761",
+                position: "Right-wing",
+            },
+        ],
     },
     {
         ids: ["CA"],
@@ -31317,7 +31379,28 @@ const database = [
         img: "https://commons.wikimedia.org/wiki/Special:FilePath/1972_Canadian_parliament.svg?width=600",
         wiki_link:
             "https://en.wikipedia.org/wiki/1972_Canadian_federal_election#National_results",
-        parties: [],
+        parties: [
+            {
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "Progressive Conservative Party of Canada",
+                color: "#6495ED",
+                position: "Centre to centre-right",
+            },
+            {
+                name: "New Democratic Party",
+                color: "#F58220",
+                position: "Centre-left to left-wing",
+            },
+            {
+                name: "Social Credit Party of Canada",
+                color: "#2EC761",
+                position: "Right-wing",
+            },
+        ],
     },
     {
         ids: ["CA"],
@@ -31329,8 +31412,19 @@ const database = [
             "https://en.wikipedia.org/wiki/1958_Canadian_federal_election#National_results",
         parties: [
             {
-                name: "no",
-                color: "#F8F9FA",
+                name: "Progressive Conservative Party of Canada",
+                color: "#6495ED",
+                position: "Centre to centre-right",
+            },
+            {
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "Co-operative Commonwealth Federation",
+                color: "#F58220",
+                position: "Left-wing",
             },
         ],
     },
@@ -31342,7 +31436,33 @@ const database = [
         img: "https://commons.wikimedia.org/wiki/Special:FilePath/1935_Canadian_parliament_English_version.svg?width=600",
         wiki_link:
             "https://en.wikipedia.org/wiki/1935_Canadian_federal_election#National_results",
-        parties: [],
+        parties: [
+            {
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "Conservative Party of Canada (historical)",
+                color: "#6495ED",
+                position: "Centre to centre-right",
+            },
+            {
+                name: "Social Credit Party of Canada",
+                color: "#2EC761",
+                position: "Right-wing",
+            },
+            {
+                name: "Co-operative Commonwealth Federation",
+                color: "#F58220",
+                position: "Left-wing",
+            },
+            {
+                name: "Reconstruction Party of Canada",
+                color: "#808080",
+                position: "Centre-right",
+            },
+        ],
     },
     {
         ids: ["CA"],
@@ -31354,8 +31474,24 @@ const database = [
             "https://en.wikipedia.org/wiki/1930_Canadian_federal_election#National_results",
         parties: [
             {
-                name: "no",
-                color: "#F8F9FA",
+                name: "Conservative Party of Canada (historical)",
+                color: "#6495ED",
+                position: "Centre to centre-right",
+            },
+            {
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "United Farmers of Alberta",
+                color: "#3CB371",
+                position: "Centre-left",
+            },
+            {
+                name: "Progressive Party of Canada",
+                color: "#AACC55",
+                position: "Centre to centre-left",
             },
         ],
     },
@@ -31369,8 +31505,29 @@ const database = [
             "https://en.wikipedia.org/wiki/1926_Canadian_federal_election#National_results",
         parties: [
             {
-                name: "no",
-                color: "#F8F9FA",
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "Conservative Party of Canada (historical)",
+                color: "#6495ED",
+                position: "Centre to centre-right",
+            },
+            {
+                name: "Progressive Party of Canada",
+                color: "#AACC55",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "United Farmers of Alberta",
+                color: "#3CB371",
+                position: "Centre-left",
+            },
+            {
+                name: "Labour",
+                color: "#D46A6A",
+                position: "Left-wing",
             },
         ],
     },
@@ -31382,7 +31539,28 @@ const database = [
         img: "https://commons.wikimedia.org/wiki/Special:FilePath/1925_Canadian_parliament_English_version.svg?width=600",
         wiki_link:
             "https://en.wikipedia.org/wiki/1925_Canadian_federal_election#National_results",
-        parties: [],
+        parties: [
+            {
+                name: "Conservative Party of Canada (historical)",
+                color: "#6495ED",
+                position: "Centre to centre-right",
+            },
+            {
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "Progressive Party of Canada",
+                color: "#AACC55",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "Labour",
+                color: "#D46A6A",
+                position: "Left-wing",
+            },
+        ],
     },
     {
         ids: ["CA"],
@@ -31392,7 +31570,23 @@ const database = [
         img: "https://commons.wikimedia.org/wiki/Special:FilePath/1921_Canadian_parliament_(1).svg?width=600",
         wiki_link:
             "https://en.wikipedia.org/wiki/1921_Canadian_federal_election#National_results",
-        parties: [],
+        parties: [
+            {
+                name: "Liberal Party of Canada",
+                color: "#D71920",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "Progressive Party of Canada",
+                color: "#AACC55",
+                position: "Centre to centre-left",
+            },
+            {
+                name: "Conservative Party of Canada (historical)",
+                color: "#6495ED",
+                position: "Centre to centre-right",
+            },
+        ],
     },
     {
         ids: ["CA"],
@@ -31404,8 +31598,14 @@ const database = [
             "https://en.wikipedia.org/wiki/1917_Canadian_federal_election#National_results",
         parties: [
             {
-                name: "no",
-                color: "#F8F9FA",
+                name: "Unionist Party (Canada)",
+                color: "#1A4782",
+                position: "Big tent",
+            },
+            {
+                name: "Laurier Liberals",
+                color: "#D71920",
+                position: "Centre to centre-left",
             },
         ],
     },
