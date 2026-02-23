@@ -1,6 +1,5 @@
 venv/*
 __pycache__/*
-assets/*
 data.js.bak
 fix_map.js
 scripts/*
