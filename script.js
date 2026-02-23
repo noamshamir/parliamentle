@@ -1410,8 +1410,8 @@ window.onload = function () {
     document.addEventListener("keydown", function (e) {
         if (
             (e.metaKey || e.ctrlKey) &&
-            e.shiftKey &&
-            e.key.toLowerCase() === "a"
+            !e.shiftKey &&
+            e.key.toLowerCase() === "k"
         ) {
             e.preventDefault();
             if (adminOverlay.classList.contains("visible")) {
