@@ -1,9 +1,330 @@
-/* ═══════════════════════════════════════════════════════════
-   home-game.css  –  game widgets on the home page
-   Light / newspaper theme to match home.css
-   ═══════════════════════════════════════════════════════════ */
+@font-face {
+    font-family: "Chomsky";
+    src: url("assets/fonts/Chomsky.otf") format("opentype");
+}
 
-/* ─── Diagram + hint row ─── */
+@font-face {
+    font-family: "Karnak Condensed";
+    src: url("assets/fonts/NYTKarnakCondensed.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Franklin ExtraLight";
+    src: url("assets/fonts/Franklin/LibreFranklin-ExtraLight.ttf")
+        format("truetype");
+}
+
+@font-face {
+    font-family: "Franklin Medium";
+    src: url("assets/fonts/Franklin/LibreFranklin-Medium.ttf")
+        format("truetype");
+}
+
+@font-face {
+    font-family: "Franklin Bold";
+    src: url("assets/fonts/Franklin/LibreFranklin-Bold.ttf") format("truetype");
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    line-height: 0;
+}
+
+.nyt-header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+    gap: 21px;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 22px;
+    margin-bottom: 4px;
+}
+
+.hamburger div {
+    height: 3.5px;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.logo img {
+    height: 33px;
+    width: auto;
+    margin-top: 3px;
+}
+
+.game-header {
+    padding: 20px 70px 10px 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 20px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.game-name {
+    font-family: "Karnak Condensed";
+    font-size: 45px;
+}
+
+.date {
+    font-family: "Franklin ExtraLight";
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.toolbar {
+    position: sticky;
+    top: 60px;
+    background-color: white;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 0px 30px;
+}
+
+.toolbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.toolbar-modes {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-left: 20px;
+}
+
+.mode-btn {
+    font-family: "Franklin Medium", sans-serif;
+    font-size: 14px;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 32px;
+    width: 100px;
+    background: #fff;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.mode-btn:hover {
+    background: #f0f0f0;
+}
+
+.mode-btn.active {
+    background: #050505;
+    color: #fff;
+    border-color: #222;
+}
+
+.toolbar-hints {
+    display: flex;
+    align-items: center;
+}
+
+.toolbar-settings {
+    display: flex;
+    align-items: center;
+}
+
+.settings-icon {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.settings-icon:hover {
+    background-color: #ebebeb;
+}
+
+.settings-icon img {
+    height: 50px;
+    width: auto;
+}
+
+.settings-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings-overlay.visible {
+    display: flex;
+}
+
+.settings-modal {
+    background: #fff;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+    animation: hgModalIn 0.25s ease-out;
+}
+
+.settings-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 24px 16px;
+    position: relative;
+}
+
+.settings-title {
+    font-family: "Franklin Bold", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #222;
+}
+
+.settings-close {
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #222;
+    line-height: 1;
+    padding: 4px;
+}
+
+.settings-close:hover {
+    color: #666;
+}
+
+.settings-body {
+    padding: 20px 24px 24px;
+}
+
+.settings-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-top: 1px solid #e1e1e1;
+}
+
+.settings-item-text {
+    flex: 1;
+    margin-right: 16px;
+}
+
+.settings-label {
+    font-family: "Franklin Bold", sans-serif;
+    font-size: 15px;
+    color: #222;
+}
+
+.settings-desc {
+    font-family: "Franklin ExtraLight", sans-serif;
+    font-size: 12px;
+    color: #666;
+    margin-top: 12px;
+    line-height: 1.4;
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ccc;
+    border-radius: 22px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.toggle-slider::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 3px;
+    bottom: 3px;
+    background: #fff;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+
+.toggle-switch input:checked + .toggle-slider {
+    background: #222;
+}
+
+.toggle-switch input:checked + .toggle-slider::before {
+    transform: translateX(18px);
+}
+
+.hint {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hint:hover {
+    background-color: #ebebeb;
+}
+
+.hint img {
+    height: 50px;
+    width: auto;
+}
+
+.hint span {
+    font-family: "Franklin Medium";
+    position: absolute;
+    top: 43%;
+}
+
+#hint-1 span {
+    left: 46%;
+}
+
+#hint-2 span {
+    left: 44%;
+}
+
+#hint-3 span {
+    left: 44%;
+}
+
 .hg-diagram-section {
     display: flex;
     justify-content: center;
@@ -18,7 +339,6 @@
 
 .hg-diagram-container {
     background: #fff;
-    /* border: 1px solid #e1e1e1; */
     border-radius: 6px;
     max-width: 420px;
     flex-shrink: 0;
@@ -44,7 +364,6 @@
     width: 100%;
 }
 
-/* ─── Hint panel ─── */
 .hg-hint-panel {
     display: none;
     padding: 4px 0;
@@ -109,7 +428,6 @@
     border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
-/* ─── Bottom two-column layout ─── */
 .hg-bottom {
     display: flex;
     margin: 0 60px;
@@ -129,7 +447,6 @@
     flex-direction: column;
 }
 
-/* ─── World map ─── */
 .hg-map-wrapper {
     margin: 0px 0;
     border-radius: 6px;
@@ -163,7 +480,6 @@
     cursor: grabbing;
 }
 
-/* Map paths – light theme */
 .hg-map-wrapper path {
     fill: #c8c8c8;
     stroke: #999;
@@ -191,6 +507,10 @@
 }
 
 .hg-map-wrapper path.regional {
+    fill: #f0d870;
+}
+
+.hg-map-wrapper path.neighbor {
     fill: #d4a843;
 }
 
@@ -199,13 +519,12 @@
 }
 
 .hg-map-wrapper
-    path.is-region-hover:not(.selected):not(.regional):not(.wrong):not(
-        .correct
-    ) {
+    path.is-region-hover:not(.selected):not(.regional):not(.neighbor):not(
+        .wrong
+    ):not(.correct) {
     fill: #b0b0b0 !important;
 }
 
-/* Zoom controls */
 .hg-zoom-controls {
     position: absolute;
     bottom: 10px;
@@ -236,7 +555,6 @@
     background: #fff;
 }
 
-/* ─── Year timeline ─── */
 .hg-timeline-section {
     margin: 10px 0 20px;
     text-align: center;
@@ -279,7 +597,6 @@
     position: absolute;
     top: 0;
     height: 100%;
-    will-change: transform;
 }
 
 .hg-timeline-tick {
@@ -313,7 +630,6 @@
     font-size: 28px;
     color: #222;
     letter-spacing: 1px;
-    /* make input look like the old div */
     border: none;
     outline: none;
     background: transparent;
@@ -322,7 +638,6 @@
     padding: 0;
 }
 
-/* ─── Guess controls ─── */
 .hg-guess-section {
     display: flex;
     flex-direction: column;
@@ -372,7 +687,6 @@
     cursor: not-allowed;
 }
 
-/* ─── Guess history ─── */
 .hg-history {
     margin: 0;
     display: flex;
@@ -417,7 +731,7 @@
     font-size: 12px;
     color: #fff;
     height: 16px;
-    width: 40px;
+    width: 50px;
     text-align: center;
 }
 
@@ -426,7 +740,6 @@
     height: 15px;
     object-fit: contain;
     display: block;
-    /* make the icon readable on dark tiles */
     filter: brightness(0) invert(1);
     pointer-events: none;
 }
@@ -434,9 +747,15 @@
 .hg-tile-correct {
     background: #538d4e;
 }
-.hg-tile-regional {
-    background: #b59f3b;
+
+.hg-tile-neighbor {
+    background: #d4a843;
 }
+
+.hg-tile-regional {
+    background: #cfbe5a;
+}
+
 .hg-tile-wrong {
     background: #787c7e;
 }
@@ -449,11 +768,12 @@
     font-size: 14px;
     color: #222;
     height: 16px;
-    width: 40px;
+    width: 50px;
     background: #f0f0f0;
     padding: 4px 8px;
     border-radius: 4px;
     box-sizing: content-box;
+    white-space: nowrap;
 }
 
 .hg-tile-year.exact {
@@ -472,7 +792,6 @@
     }
 }
 
-/* ─── Guess counter ─── */
 .hg-guess-counter {
     font-family: "Franklin Medium", sans-serif;
     font-size: 12px;
@@ -480,7 +799,6 @@
     text-align: center;
 }
 
-/* ─── Selected country name ─── */
 .hg-selected-country {
     font-family: "Karnak Condensed", serif;
     font-size: 28px;
@@ -492,11 +810,13 @@
     margin: 6px 0 0;
 }
 
-/* ─── Game-over modal ─── */
 .hg-modal-overlay {
     display: none;
     position: fixed;
-    inset: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     background: rgba(0, 0, 0, 0.45);
     z-index: 1000;
     justify-content: center;
@@ -555,7 +875,6 @@
 
 .hg-modal-guesses {
     text-align: left;
-    /* margin-bottom: 20px; */
 }
 
 .hg-modal-guesses .hg-history-row {

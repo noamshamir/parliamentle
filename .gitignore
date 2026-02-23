@@ -5,7 +5,6 @@ data.js.bak
 fix_map.js
 scripts/*
 index.html
-inspect_failed.py
 nohup.out
-test_positions.py 
-verify_positions.py
+script.js
+*.old
