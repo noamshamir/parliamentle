@@ -6,3 +6,4 @@ scripts/*
 nohup.out
 script.js
 *.old
+*.bak*

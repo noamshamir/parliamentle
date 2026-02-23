@@ -65,7 +65,7 @@ const database = [
             {
                 name: "Renewal Front",
                 color: "#0E3C61",
-                position: "}}",
+                position: "",
             },
             {
                 name: "La Libertad Avanza",
@@ -85,7 +85,7 @@ const database = [
             {
                 name: "Por Santa Cruz",
                 color: "#0d69b4",
-                position: "Center",
+                position: "Centre",
             },
             {
                 name: "Juntos por el Cambio",
@@ -110,7 +110,7 @@ const database = [
             {
                 name: "Chinese Empire Reform Association",
                 color: "navy",
-                position: "seats1_title =",
+                position: "",
             },
             {
                 name: "Xinhai Club",
@@ -313,7 +313,7 @@ const database = [
             {
                 name: "Taiwan Solidarity Union",
                 color: "#C69E6A",
-                position: "Left-wing with centre-left to far-left factions}}",
+                position: "Left-wing to far-left",
             },
         ],
     },
@@ -344,7 +344,7 @@ const database = [
             {
                 name: "Taiwan Solidarity Union",
                 color: "#C69E6A",
-                position: "Left-wing with centre-left to far-left factions}}",
+                position: "Left-wing to far-left",
             },
         ],
     },
@@ -391,7 +391,7 @@ const database = [
             {
                 name: "Taiwan Solidarity Union",
                 color: "#C69E6A",
-                position: "Left-wing with centre-left to far-left factions}}",
+                position: "Left-wing to far-left",
             },
             {
                 name: "People First Party (Taiwan)",
@@ -506,12 +506,12 @@ const database = [
                 name: "Korean Democratic Party",
                 color: "#F8F9FA",
                 position:
-                    "national = Democratic Front for the Reunification of Korea(1949–2024)",
+                    "",
             },
             {
                 name: "Chondoist Chongu Party",
                 color: "#FF0000",
-                position: "religion = Cheondoism",
+                position: "",
             },
         ],
     },
@@ -533,12 +533,12 @@ const database = [
                 name: "Korean Democratic Party",
                 color: "#F8F9FA",
                 position:
-                    "national = Democratic Front for the Reunification of Korea(1949–2024)",
+                    "",
             },
             {
                 name: "Chondoist Chongu Party",
                 color: "#FF0000",
-                position: "religion = Cheondoism",
+                position: "",
             },
         ],
     },
@@ -554,13 +554,13 @@ const database = [
             {
                 name: "Chondoist Chongu Party",
                 color: "#FF0000",
-                position: "religion = Cheondoism",
+                position: "",
             },
             {
                 name: "Korean Democratic Party",
                 color: "#F8F9FA",
                 position:
-                    "national = Democratic Front for the Reunification of Korea(1949–2024)",
+                    "",
             },
             {
                 name: "Laboring People's Party",
@@ -595,13 +595,13 @@ const database = [
             {
                 name: "Chondoist Chongu Party",
                 color: "#FF0000",
-                position: "religion = Cheondoism",
+                position: "",
             },
             {
                 name: "Korean Democratic Party",
                 color: "#F8F9FA",
                 position:
-                    "national = Democratic Front for the Reunification of Korea(1949–2024)",
+                    "",
             },
             {
                 name: "Laboring People's Party",
@@ -640,13 +640,13 @@ const database = [
             {
                 name: "Chondoist Chongu Party",
                 color: "#FF0000",
-                position: "religion = Cheondoism",
+                position: "",
             },
             {
                 name: "Korean Democratic Party",
                 color: "#F8F9FA",
                 position:
-                    "national = Democratic Front for the Reunification of Korea(1949–2024)",
+                    "",
             },
             {
                 name: "Laboring People's Party",
@@ -761,7 +761,7 @@ const database = [
             {
                 name: "Pro-Park Alliance",
                 color: "#0C449B",
-                position: "national =",
+                position: "",
             },
             {
                 name: "Liberty Forward Party",
@@ -796,7 +796,7 @@ const database = [
             {
                 name: "Democratic United Party",
                 color: "#FAC71A",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Unified Progressive Party",
@@ -900,7 +900,7 @@ const database = [
             {
                 name: "Reform Party (South Korea)",
                 color: "#ED6C00",
-                position: "to right-wing}}",
+                position: "Right-wing",
             },
         ],
     },
@@ -926,12 +926,12 @@ const database = [
             {
                 name: "Shakai Taishūtō",
                 color: "#DF1210",
-                position: "Centre-left to left-wing'''After 1938: '''Far-right",
+                position: "Centre-left to left-wing",
             },
             {
                 name: "Shōwakai",
                 color: "#A9A92D",
-                position: "country = Japan",
+                position: "",
             },
             {
                 name: "Kokumin Dōmei",
@@ -967,12 +967,12 @@ const database = [
             {
                 name: "Shakai Taishūtō",
                 color: "#DF1210",
-                position: "Centre-left to left-wing'''After 1938: '''Far-right",
+                position: "Centre-left to left-wing",
             },
             {
                 name: "Shōwakai",
                 color: "#A9A92D",
-                position: "country = Japan",
+                position: "",
             },
             {
                 name: "Kokumin Dōmei",
@@ -1027,7 +1027,7 @@ const database = [
             {
                 name: "Democratic Party (Japan, 1947)",
                 color: "#EC9502",
-                position: "country = Japan",
+                position: "",
             },
             {
                 name: "National Cooperative Party",
@@ -1042,7 +1042,7 @@ const database = [
             {
                 name: "Japan Farmers Party (1947–1949)",
                 color: "#00ff00",
-                position: "Center",
+                position: "Centre",
             },
         ],
     },
@@ -1063,7 +1063,7 @@ const database = [
             {
                 name: "Democratic Party (Japan, 1947)",
                 color: "#EC9502",
-                position: "country = Japan",
+                position: "",
             },
             {
                 name: "Japan Socialist Party",
@@ -1083,7 +1083,7 @@ const database = [
             {
                 name: "Labourers and Farmers Party",
                 color: "#FE7580",
-                position: "country = Japan",
+                position: "",
             },
         ],
     },
@@ -1931,7 +1931,7 @@ const database = [
                 name: "Kibō no Tō",
                 color: "#046240",
                 position:
-                    "Second incarnation: Right-wing First incarnation: Centre-right to right-wing",
+                    "Centre-right to right-wing → Right-wing",
             },
             {
                 name: "Komeito",
@@ -2098,7 +2098,7 @@ const database = [
             {
                 name: "Tax Cuts Japan and Yukoku Alliance",
                 color: "#18378A",
-                position: "colours = Blue Red",
+                position: "",
             },
         ],
     },
@@ -2349,7 +2349,7 @@ const database = [
             {
                 name: "Love the People Party",
                 color: "#F8F9FA",
-                position: "Centre-left to Centre",
+                position: "Centre-left to centre",
             },
             {
                 name: "Mongolian Traditional United Party",
@@ -2388,7 +2388,7 @@ const database = [
             {
                 name: "New Coalition",
                 color: "#F8F9FA",
-                position: "to center-left}}",
+                position: "Centre-left",
             },
             {
                 name: "RPEC",
@@ -2402,7 +2402,7 @@ const database = [
             {
                 name: "Love the People Party",
                 color: "#F8F9FA",
-                position: "Centre-left to Centre",
+                position: "Centre-left to centre",
             },
             {
                 name: "People's Majority Party",
@@ -2416,7 +2416,7 @@ const database = [
             {
                 name: "Freedom Implementing Party",
                 color: "#F8F9FA",
-                position: "}}}}",
+                position: "",
             },
             {
                 name: "Great Harmony Party",
@@ -2461,7 +2461,7 @@ const database = [
             {
                 name: "New United Coalition",
                 color: "#F8F9FA",
-                position: "to center-left}}",
+                position: "Centre-left",
             },
             {
                 name: "Truth and Right Party",
@@ -2480,7 +2480,7 @@ const database = [
             {
                 name: "Civic Unity Party",
                 color: "#F8F9FA",
-                position: "affiliation1_title = PACE affiliation",
+                position: "",
             },
             {
                 name: "People's Power Party",
@@ -2490,7 +2490,7 @@ const database = [
             {
                 name: "Good Democratic Citizens United Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
         ],
     },
@@ -2506,7 +2506,7 @@ const database = [
             {
                 name: "Labour Party (UK)",
                 color: "#E4003B",
-                position: "Centre-left}}",
+                position: "Centre-left",
             },
             {
                 name: "Conservative Party (UK)",
@@ -2537,7 +2537,7 @@ const database = [
             {
                 name: "Labour Party (UK)",
                 color: "#E4003B",
-                position: "Centre-left}}",
+                position: "Centre-left",
             },
             {
                 name: "Scottish National Party",
@@ -2568,7 +2568,7 @@ const database = [
             {
                 name: "Labour Party (UK)",
                 color: "#E4003B",
-                position: "Centre-left}}",
+                position: "Centre-left",
             },
             {
                 name: "Scottish National Party",
@@ -2608,7 +2608,7 @@ const database = [
             {
                 name: "Labour Party (UK)",
                 color: "#E4003B",
-                position: "Centre-left}}",
+                position: "Centre-left",
             },
             {
                 name: "Scottish National Party",
@@ -2639,7 +2639,7 @@ const database = [
             {
                 name: "Labour Party (UK)",
                 color: "#E4003B",
-                position: "Centre-left}}",
+                position: "Centre-left",
             },
             {
                 name: "Liberal Democrats (UK)",
@@ -2660,7 +2660,7 @@ const database = [
             {
                 name: "Labour Party (UK)",
                 color: "#E4003B",
-                position: "Centre-left}}",
+                position: "Centre-left",
             },
             {
                 name: "Conservative Party (UK)",
@@ -2686,7 +2686,7 @@ const database = [
             {
                 name: "Labour Party (UK)",
                 color: "#E4003B",
-                position: "Centre-left}}",
+                position: "Centre-left",
             },
             {
                 name: "Conservative Party (UK)",
@@ -2712,7 +2712,7 @@ const database = [
             {
                 name: "Labour Party (UK)",
                 color: "#E4003B",
-                position: "Centre-left}}",
+                position: "Centre-left",
             },
             {
                 name: "Conservative Party (UK)",
@@ -2743,7 +2743,7 @@ const database = [
             {
                 name: "Labour Party (UK)",
                 color: "#E4003B",
-                position: "Centre-left}}",
+                position: "Centre-left",
             },
             {
                 name: "Liberal Democrats (UK)",
@@ -3406,7 +3406,7 @@ const database = [
             {
                 name: "Aontú",
                 color: "#44532A",
-                position: "Fiscal: Left-wing Social: Right-wing",
+                position: "Fiscal: Left-wing; Social: Right-wing",
             },
             {
                 name: "Green Party (Ireland)",
@@ -3462,7 +3462,7 @@ const database = [
             {
                 name: "Aontú",
                 color: "#44532A",
-                position: "Fiscal: Left-wing Social: Right-wing",
+                position: "Fiscal: Left-wing; Social: Right-wing",
             },
             {
                 name: "Independents 4 Change",
@@ -4025,7 +4025,7 @@ const database = [
             {
                 name: "German People's Party",
                 color: "#D3B454",
-                position: "Before 1929:Centre-right",
+                position: "Centre-right",
             },
         ],
     },
@@ -4050,7 +4050,7 @@ const database = [
             {
                 name: "German People's Party",
                 color: "#D3B454",
-                position: "Before 1929:Centre-right",
+                position: "Centre-right",
             },
             {
                 name: "Centre Party (Germany)",
@@ -4091,7 +4091,7 @@ const database = [
             {
                 name: "German People's Party",
                 color: "#D3B454",
-                position: "Before 1929:Centre-right",
+                position: "Centre-right",
             },
             {
                 name: "Communist Party of Germany",
@@ -4136,7 +4136,7 @@ const database = [
             {
                 name: "German People's Party",
                 color: "#D3B454",
-                position: "Before 1929:Centre-right",
+                position: "Centre-right",
             },
             {
                 name: "German Democratic Party",
@@ -4181,7 +4181,7 @@ const database = [
             {
                 name: "German People's Party",
                 color: "#D3B454",
-                position: "Before 1929:Centre-right",
+                position: "Centre-right",
             },
         ],
     },
@@ -4221,7 +4221,7 @@ const database = [
             {
                 name: "German People's Party",
                 color: "#D3B454",
-                position: "Before 1929:Centre-right",
+                position: "Centre-right",
             },
         ],
     },
@@ -4447,7 +4447,7 @@ const database = [
             {
                 name: "German Party (1947)",
                 color: "#66B67F",
-                position: "Right-wing or far-right",
+                position: "Right-wing to far-right",
             },
             {
                 name: "Communist Party of Germany",
@@ -4488,7 +4488,7 @@ const database = [
             {
                 name: "German Party (1947)",
                 color: "#66B67F",
-                position: "Right-wing or far-right",
+                position: "Right-wing to far-right",
             },
             {
                 name: "Centre Party (Germany, 1945)",
@@ -4524,7 +4524,7 @@ const database = [
             {
                 name: "German Party (1947)",
                 color: "#66B67F",
-                position: "Right-wing or far-right",
+                position: "Right-wing to far-right",
             },
         ],
     },
@@ -6139,7 +6139,7 @@ const database = [
             {
                 name: "Freedom Party (Slovakia)",
                 color: "#1A809A",
-                position: "Centre to centre-right(until 1948)",
+                position: "Centre to centre-right",
             },
             {
                 name: "Labour Party (Slovakia)",
@@ -6945,7 +6945,7 @@ const database = [
             {
                 name: "Freedom Party (Slovakia)",
                 color: "#1A809A",
-                position: "Centre to centre-right(until 1948)",
+                position: "Centre to centre-right",
             },
             {
                 name: "Labour Party (Slovakia)",
@@ -7031,7 +7031,7 @@ const database = [
             {
                 name: "Together 2014",
                 color: "#FED500",
-                position: "Centre to Centre-left",
+                position: "Centre to centre-left",
             },
         ],
     },
@@ -7596,7 +7596,7 @@ const database = [
                 name: "Romanian ethnic minority parties",
                 color: "#000000",
                 position:
-                    "Big tentFactionsCentre-right (DFDR/FDGR and UDSCR)Centre-left (PRPE)",
+                    "Big tent",
             },
         ],
     },
@@ -7638,7 +7638,7 @@ const database = [
                 name: "Romanian ethnic minority parties",
                 color: "#000000",
                 position:
-                    "Big tentFactionsCentre-right (DFDR/FDGR and UDSCR)Centre-left (PRPE)",
+                    "Big tent",
             },
         ],
     },
@@ -7684,7 +7684,7 @@ const database = [
                 name: "Romanian ethnic minority parties",
                 color: "#000000",
                 position:
-                    "Big tentFactionsCentre-right (DFDR/FDGR and UDSCR)Centre-left (PRPE)",
+                    "Big tent",
             },
         ],
     },
@@ -7719,7 +7719,7 @@ const database = [
                 name: "Romanian ethnic minority parties",
                 color: "#000000",
                 position:
-                    "Big tentFactionsCentre-right (DFDR/FDGR and UDSCR)Centre-left (PRPE)",
+                    "Big tent",
             },
         ],
     },
@@ -7754,7 +7754,7 @@ const database = [
                 name: "Romanian ethnic minority parties",
                 color: "#000000",
                 position:
-                    "Big tentFactionsCentre-right (DFDR/FDGR and UDSCR)Centre-left (PRPE)",
+                    "Big tent",
             },
         ],
     },
@@ -7788,7 +7788,7 @@ const database = [
                 name: "Romanian ethnic minority parties",
                 color: "#000000",
                 position:
-                    "Big tentFactionsCentre-right (DFDR/FDGR and UDSCR)Centre-left (PRPE)",
+                    "Big tent",
             },
         ],
     },
@@ -7814,7 +7814,7 @@ const database = [
             {
                 name: "Greater Romania Party",
                 color: "#0258A4",
-                position: "Socially:Far-rightFiscally:Centre-left",
+                position: "Fiscal: Centre-left; Social: Far-right",
             },
             {
                 name: "Democratic Alliance of Hungarians in Romania",
@@ -7825,7 +7825,7 @@ const database = [
                 name: "Romanian ethnic minority parties",
                 color: "#000000",
                 position:
-                    "Big tentFactionsCentre-right (DFDR/FDGR and UDSCR)Centre-left (PRPE)",
+                    "Big tent",
             },
             {
                 name: "Justice and Truth Alliance",
@@ -7851,7 +7851,7 @@ const database = [
             {
                 name: "Greater Romania Party",
                 color: "#0258A4",
-                position: "Socially:Far-rightFiscally:Centre-left",
+                position: "Fiscal: Centre-left; Social: Far-right",
             },
             {
                 name: "Democratic Party (Romania)",
@@ -7872,7 +7872,7 @@ const database = [
                 name: "Romanian ethnic minority parties",
                 color: "#000000",
                 position:
-                    "Big tentFactionsCentre-right (DFDR/FDGR and UDSCR)Centre-left (PRPE)",
+                    "Big tent",
             },
         ],
     },
@@ -7903,7 +7903,7 @@ const database = [
             {
                 name: "Greater Romania Party",
                 color: "#0258A4",
-                position: "Socially:Far-rightFiscally:Centre-left",
+                position: "Fiscal: Centre-left; Social: Far-right",
             },
             {
                 name: "Romanian National Unity Party",
@@ -7913,7 +7913,7 @@ const database = [
                 name: "Romanian ethnic minority parties",
                 color: "#000000",
                 position:
-                    "Big tentFactionsCentre-right (DFDR/FDGR and UDSCR)Centre-left (PRPE)",
+                    "Big tent",
             },
             {
                 name: "Romanian Democratic Convention",
@@ -7963,7 +7963,7 @@ const database = [
             {
                 name: "Greater Romania Party",
                 color: "#0258A4",
-                position: "Socially:Far-rightFiscally:Centre-left",
+                position: "Fiscal: Centre-left; Social: Far-right",
             },
             {
                 name: "Socialist Party of Labour",
@@ -7974,7 +7974,7 @@ const database = [
                 name: "Romanian ethnic minority parties",
                 color: "#000000",
                 position:
-                    "Big tentFactionsCentre-right (DFDR/FDGR and UDSCR)Centre-left (PRPE)",
+                    "Big tent",
             },
             {
                 name: "Democratic Agrarian Party of Romania",
@@ -8023,7 +8023,7 @@ const database = [
             {
                 name: "Ecologist Party of Romania",
                 color: "#07733F",
-                position: "Fiscal: CentreCultural: Right-wing",
+                position: "Fiscal: Centre; Cultural: Right-wing",
             },
             {
                 name: "Romanian Socialist Democratic Party",
@@ -8092,7 +8092,7 @@ const database = [
                 name: "National Peasants' Party",
                 color: "#FFCC00",
                 position:
-                    "Centre-left to centre-right (de jure)Syncretic (de facto)",
+                    "Syncretic",
             },
             {
                 name: "Hungarian People's Union",
@@ -8127,7 +8127,7 @@ const database = [
                 name: "National Peasants' Party",
                 color: "#008540",
                 position:
-                    "Centre-left to centre-right (de jure)Syncretic (de facto)",
+                    "Syncretic",
             },
             {
                 name: "Iron Guard",
@@ -8439,7 +8439,7 @@ const database = [
             {
                 name: "Left Union for a Clean and Holy Republic",
                 color: "#F11928",
-                position: "Left-wing to Far-left",
+                position: "Left-wing to far-left",
             },
             {
                 name: "Republicans for Bulgaria",
@@ -8619,7 +8619,7 @@ const database = [
             {
                 name: "Bulgaria Without Censorship",
                 color: "#08B4D8",
-                position: "Centre-right (self-declared)",
+                position: "Centre-right",
             },
             {
                 name: "Attack (political party)",
@@ -8681,12 +8681,12 @@ const database = [
             {
                 name: "Blue Coalition",
                 color: "#1D2D5A",
-                position: "Center to center-right",
+                position: "Centre to centre-right",
             },
             {
                 name: "Order, Law and Justice",
                 color: "#F66E22",
-                position: "Centre-right toright-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Lider",
@@ -9232,7 +9232,7 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
         ],
     },
@@ -9248,7 +9248,7 @@ const database = [
             {
                 name: "People's Bloc",
                 color: "#F8F9FA",
-                position: "Center-left to Left wing",
+                position: "Centre-left to left-wing",
             },
             {
                 name: "People's Coalition",
@@ -9334,7 +9334,7 @@ const database = [
             {
                 name: "Radical Party",
                 color: "#F8F9FA",
-                position: "Centre (since 2017)",
+                position: "Centre",
             },
             {
                 name: "Radical Democratic Party (Bulgaria)",
@@ -9393,7 +9393,7 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Others",
@@ -9455,7 +9455,7 @@ const database = [
             {
                 name: "People's Party (Bulgaria)",
                 color: "#B87333",
-                position: "Center-right",
+                position: "Centre-right",
             },
             {
                 name: "BRSDP (united)",
@@ -9523,7 +9523,7 @@ const database = [
             {
                 name: "People's Party (Bulgaria)",
                 color: "#B87333",
-                position: "Center-right",
+                position: "Centre-right",
             },
             {
                 name: "Progressive Liberal Party (Bulgaria)",
@@ -9649,7 +9649,7 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "People's Party",
@@ -9683,7 +9683,7 @@ const database = [
             {
                 name: "Syriza",
                 color: "#ee808f",
-                position: "Centre-leftUntil 2015: Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "PASOK – Movement for Change",
@@ -9734,7 +9734,7 @@ const database = [
             {
                 name: "Syriza",
                 color: "#ee808f",
-                position: "Centre-leftUntil 2015: Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "PASOK – Movement for Change",
@@ -9770,7 +9770,7 @@ const database = [
             {
                 name: "Syriza",
                 color: "#ee808f",
-                position: "Centre-leftUntil 2015: Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "KINAL",
@@ -9806,7 +9806,7 @@ const database = [
             {
                 name: "Syriza",
                 color: "#ee808f",
-                position: "Centre-leftUntil 2015: Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "New Democracy (Greece)",
@@ -9851,7 +9851,7 @@ const database = [
             {
                 name: "Syriza",
                 color: "#ee808f",
-                position: "Centre-leftUntil 2015: Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "New Democracy (Greece)",
@@ -9876,7 +9876,7 @@ const database = [
             {
                 name: "PASOK",
                 color: "#2D902D",
-                position: "Centre-left1970s-early 1980s:Left-wing",
+                position: "Centre-left",
             },
         ],
     },
@@ -9897,12 +9897,12 @@ const database = [
             {
                 name: "Syriza",
                 color: "#ee808f",
-                position: "Centre-leftUntil 2015: Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "PASOK",
                 color: "#2D902D",
-                position: "Centre-left1970s-early 1980s:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "Golden Dawn (Greece)",
@@ -9938,12 +9938,12 @@ const database = [
             {
                 name: "Syriza",
                 color: "#ee808f",
-                position: "Centre-leftUntil 2015: Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "PASOK",
                 color: "#2D902D",
-                position: "Centre-left1970s-early 1980s:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "Communist Party of Greece",
@@ -9974,7 +9974,7 @@ const database = [
             {
                 name: "PASOK",
                 color: "#2D902D",
-                position: "Centre-left1970s-early 1980s:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "New Democracy (Greece)",
@@ -9994,7 +9994,7 @@ const database = [
             {
                 name: "Syriza",
                 color: "#ee808f",
-                position: "Centre-leftUntil 2015: Left-wing",
+                position: "Centre-left",
             },
         ],
     },
@@ -10015,7 +10015,7 @@ const database = [
             {
                 name: "PASOK",
                 color: "#2D902D",
-                position: "Centre-left1970s-early 1980s:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "Communist Party of Greece",
@@ -10025,7 +10025,7 @@ const database = [
             {
                 name: "Syriza",
                 color: "#ee808f",
-                position: "Centre-leftUntil 2015: Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "Popular Orthodox Rally",
@@ -10051,7 +10051,7 @@ const database = [
             {
                 name: "PASOK",
                 color: "#2D902D",
-                position: "Centre-left1970s-early 1980s:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "Communist Party of Greece",
@@ -10061,7 +10061,7 @@ const database = [
             {
                 name: "Syriza",
                 color: "#ee808f",
-                position: "Centre-leftUntil 2015: Left-wing",
+                position: "Centre-left",
             },
         ],
     },
@@ -10077,7 +10077,7 @@ const database = [
             {
                 name: "PASOK",
                 color: "#2D902D",
-                position: "Centre-left1970s-early 1980s:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "New Democracy (Greece)",
@@ -10108,7 +10108,7 @@ const database = [
             {
                 name: "PASOK",
                 color: "#2D902D",
-                position: "Centre-left1970s-early 1980s:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "New Democracy (Greece)",
@@ -10144,7 +10144,7 @@ const database = [
             {
                 name: "PASOK",
                 color: "#2D902D",
-                position: "Centre-left1970s-early 1980s:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "New Democracy (Greece)",
@@ -10180,7 +10180,7 @@ const database = [
             {
                 name: "PASOK",
                 color: "#2D902D",
-                position: "Centre-left1970s-early 1980s:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "Synaspismos",
@@ -10206,7 +10206,7 @@ const database = [
             {
                 name: "PASOK",
                 color: "#2D902D",
-                position: "Centre-left1970s-early 1980s:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "Synaspismos",
@@ -10245,7 +10245,7 @@ const database = [
             {
                 name: "PASOK",
                 color: "#2D902D",
-                position: "Centre-left1970s-early 1980s:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "Synaspismos",
@@ -10280,7 +10280,7 @@ const database = [
             {
                 name: "PASOK",
                 color: "#2D902D",
-                position: "Centre-left1970s-early 1980s:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "Synaspismos",
@@ -10310,7 +10310,7 @@ const database = [
             {
                 name: "PASOK",
                 color: "#2D902D",
-                position: "Centre-left1970s-early 1980s:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "New Democracy (Greece)",
@@ -10351,7 +10351,7 @@ const database = [
             {
                 name: "PASOK",
                 color: "#2D902D",
-                position: "Centre-left1970s-early 1980s:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "United Left (Greece)",
@@ -10855,7 +10855,7 @@ const database = [
             {
                 name: "Syriza",
                 color: "#ee808f",
-                position: "Centre-leftUntil 2015: Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "PASOK – Movement for Change",
@@ -10928,7 +10928,7 @@ const database = [
             {
                 name: "Rikken Kokumintō",
                 color: "#A090E0",
-                position: "Centre-left to Centre-right",
+                position: "Centre-left to centre-right",
             },
         ],
     },
@@ -10982,7 +10982,7 @@ const database = [
             {
                 name: "New Democracy Alliance Party",
                 color: "#F7ED14",
-                position: "Centre to far-right",
+                position: "Big tent",
             },
             {
                 name: "Albanian National Front Party",
@@ -11248,7 +11248,7 @@ const database = [
             {
                 name: "Democratic Alliance Party (Albania)",
                 color: "#1369B2",
-                position: "Social Democrat",
+                position: "Centre-left",
             },
             {
                 name: "Social Democracy Party of Albania",
@@ -11309,7 +11309,7 @@ const database = [
             {
                 name: "Democratic Alliance Party (Albania)",
                 color: "#1369B2",
-                position: "Social Democrat",
+                position: "Centre-left",
             },
             {
                 name: "Agrarian Party of Albania",
@@ -11364,7 +11364,7 @@ const database = [
             {
                 name: "Democratic Alliance Party (Albania)",
                 color: "#1369B2",
-                position: "Social Democrat",
+                position: "Centre-left",
             },
             {
                 name: "Social Democratic Party of Albania",
@@ -11575,7 +11575,7 @@ const database = [
             {
                 name: "VLEN Coalition",
                 color: "#A5021F",
-                position: "Centre-rightFaction:Centre-left",
+                position: "Centre-right",
             },
             {
                 name: "The Left (North Macedonia)",
@@ -12662,7 +12662,7 @@ const database = [
             {
                 name: "Democratic Movement of Serbia",
                 color: "#1A4A96",
-                position: "1992: Center-right1993: Big tent",
+                position: "Big tent",
             },
             {
                 name: "Democratic Party (Serbia)",
@@ -13029,7 +13029,7 @@ const database = [
             {
                 name: "PAN Coalition",
                 color: "#F8F9FA",
-                position: "Centre-left (majority)",
+                position: "Centre-left",
             },
             {
                 name: "Vetëvendosje",
@@ -13640,7 +13640,7 @@ const database = [
             {
                 name: "Greater Romania Party",
                 color: "#0258A4",
-                position: "Socially:Far-rightFiscally:Centre-left",
+                position: "Fiscal: Centre-left; Social: Far-right",
             },
             {
                 name: "Socialist Party of Labour",
@@ -13651,7 +13651,7 @@ const database = [
                 name: "Romanian ethnic minority parties",
                 color: "#000000",
                 position:
-                    "Big tentFactionsCentre-right (DFDR/FDGR and UDSCR)Centre-left (PRPE)",
+                    "Big tent",
             },
             {
                 name: "Democratic Agrarian Party of Romania",
@@ -13883,7 +13883,7 @@ const database = [
             {
                 name: "Gregor Virant's Civic List",
                 color: "#0067A5",
-                position: "Centre tocentre-right",
+                position: "Centre to centre-right",
             },
             {
                 name: "Democratic Party of Pensioners of Slovenia",
@@ -14433,12 +14433,12 @@ const database = [
             {
                 name: "Democratic Front (Montenegro)",
                 color: "#00008B",
-                position: "Right-wing (Except Radnička Partija)",
+                position: "Right-wing",
             },
             {
                 name: "Socialist People's Party of Montenegro",
                 color: "#00A2E4",
-                position: "Fiscal: Centre-leftSocial: Centre-right",
+                position: "Fiscal: Centre-left; Social: Centre-right",
             },
             {
                 name: "Positive Montenegro",
@@ -14641,7 +14641,7 @@ const database = [
             {
                 name: "For Justice and Order",
                 color: "#024EB0",
-                position: "Fiscal: Center-leftSocial: Center-right",
+                position: "Fiscal: Centre-left; Social: Centre-right",
             },
             {
                 name: "Democratic Union (Bosnia and Herzegovina)",
@@ -14719,7 +14719,7 @@ const database = [
             {
                 name: "Party of Democratic Activity",
                 color: "darkgreen",
-                position: "Center-right",
+                position: "Centre-right",
             },
         ],
     },
@@ -14783,7 +14783,7 @@ const database = [
             {
                 name: "Party of Democratic Activity",
                 color: "darkgreen",
-                position: "Center-right",
+                position: "Centre-right",
             },
         ],
     },
@@ -15137,7 +15137,7 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#EF3E3E",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Five Star Movement",
@@ -15172,7 +15172,7 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#EF3E3E",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Free and Equal (Italy)",
@@ -15193,7 +15193,7 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#EF3E3E",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "The People of Freedom",
@@ -15229,12 +15229,12 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#EF3E3E",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Union of the Centre (2002)",
                 color: "#87CEFA",
-                position: "Centre tocentre-right",
+                position: "Centre to centre-right",
             },
         ],
     },
@@ -15338,7 +15338,7 @@ const database = [
             {
                 name: "Segni Pact",
                 color: "#FFD700",
-                position: "1994-1999Centre1999-2003Centre-right",
+                position: "Centre-right",
             },
         ],
     },
@@ -15623,7 +15623,7 @@ const database = [
             {
                 name: "PSIUP",
                 color: "#F8F9FA",
-                position: "Left-wingFactionsFar-left",
+                position: "Left-wing",
             },
         ],
     },
@@ -15808,7 +15808,7 @@ const database = [
             {
                 name: "PSIUP",
                 color: "#F8F9FA",
-                position: "Left-wingFactionsFar-left",
+                position: "Left-wing",
             },
             {
                 name: "Italian Communist Party",
@@ -16554,7 +16554,7 @@ const database = [
             {
                 name: "National Centre of Independents and Peasants",
                 color: "#26C4EC",
-                position: "Right-wingBefore 1962:Centre-right",
+                position: "Right-wing",
             },
             {
                 name: "Popular Republican Movement",
@@ -16784,7 +16784,7 @@ const database = [
             {
                 name: "Republican, Radical and Radical-Socialist Party",
                 color: "#E0B0FF",
-                position: "Centre (since 2017)",
+                position: "Centre",
             },
             {
                 name: "French Section of the Workers' International",
@@ -16882,7 +16882,7 @@ const database = [
                 name: "Evangelical People's Party of Switzerland",
                 color: "#EFDA18",
                 position:
-                    "Economic: Centre to centre-left Social: Centre-right",
+                    "Economic: Centre to centre-left; Social: Centre-right",
             },
             {
                 name: "Federal Democratic Union of Switzerland",
@@ -16977,7 +16977,7 @@ const database = [
                 name: "Evangelical People's Party of Switzerland",
                 color: "#EFDA18",
                 position:
-                    "Economic: Centre to centre-left Social: Centre-right",
+                    "Economic: Centre to centre-left; Social: Centre-right",
             },
             {
                 name: "Ticino League",
@@ -17048,7 +17048,7 @@ const database = [
                 name: "Evangelical People's Party of Switzerland",
                 color: "#EFDA18",
                 position:
-                    "Economic: Centre to centre-left Social: Centre-right",
+                    "Economic: Centre to centre-left; Social: Centre-right",
             },
             {
                 name: "Ticino League",
@@ -17114,7 +17114,7 @@ const database = [
                 name: "Evangelical People's Party of Switzerland",
                 color: "#EFDA18",
                 position:
-                    "Economic: Centre to centre-left Social: Centre-right",
+                    "Economic: Centre to centre-left; Social: Centre-right",
             },
             {
                 name: "Federal Democratic Union of Switzerland",
@@ -17174,7 +17174,7 @@ const database = [
                 name: "Evangelical People's Party of Switzerland",
                 color: "#EFDA18",
                 position:
-                    "Economic: Centre to centre-left Social: Centre-right",
+                    "Economic: Centre to centre-left; Social: Centre-right",
             },
             {
                 name: "Liberal Party of Switzerland",
@@ -17253,7 +17253,7 @@ const database = [
                 name: "Evangelical People's Party of Switzerland",
                 color: "#EFDA18",
                 position:
-                    "Economic: Centre to centre-left Social: Centre-right",
+                    "Economic: Centre to centre-left; Social: Centre-right",
             },
             {
                 name: "Federal Democratic Union of Switzerland",
@@ -17330,7 +17330,7 @@ const database = [
                 name: "Evangelical People's Party of Switzerland",
                 color: "#EFDA18",
                 position:
-                    "Economic: Centre to centre-left Social: Centre-right",
+                    "Economic: Centre to centre-left; Social: Centre-right",
             },
             {
                 name: "Feminist and Green Alternative Groups",
@@ -17398,7 +17398,7 @@ const database = [
                 name: "Evangelical People's Party of Switzerland",
                 color: "#EFDA18",
                 position:
-                    "Economic: Centre to centre-left Social: Centre-right",
+                    "Economic: Centre to centre-left; Social: Centre-right",
             },
             {
                 name: "Ticino League",
@@ -17689,7 +17689,7 @@ const database = [
             {
                 name: "Union, Progress and Democracy",
                 color: "#E9008C",
-                position: "CentreMiftari 2015",
+                position: "Centre",
             },
         ],
     },
@@ -18177,7 +18177,7 @@ const database = [
             {
                 name: "Liberal Party (Philippines)",
                 color: "#f0e68c",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Progressive Party (Philippines)",
@@ -18203,7 +18203,7 @@ const database = [
             {
                 name: "Liberal Party (Philippines)",
                 color: "#f0e68c",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Progressive Party (Philippines)",
@@ -18270,7 +18270,7 @@ const database = [
                 name: "Radical Republican Party",
                 color: "#A871A8",
                 position:
-                    "Restoration:Left-wing2nd Republic:Centre to centre-right",
+                    "Left-wing → Centre to centre-right",
             },
             {
                 name: "Spanish Socialist Workers' Party",
@@ -18310,7 +18310,7 @@ const database = [
                 name: "Radical Republican Party",
                 color: "#A871A8",
                 position:
-                    "Restoration:Left-wing2nd Republic:Centre to centre-right",
+                    "Left-wing → Centre to centre-right",
             },
             {
                 name: "Spanish Socialist Workers' Party",
@@ -18350,13 +18350,13 @@ const database = [
                 name: "Radical Republican Party",
                 color: "#A871A8",
                 position:
-                    "Restoration:Left-wing2nd Republic:Centre to centre-right",
+                    "Left-wing → Centre to centre-right",
             },
             {
                 name: "Radical Socialist Republican Party",
                 color: "#9A0DBC",
                 position:
-                    "Restoration:Left-wing2nd Republic:Centre to centre-right",
+                    "Left-wing → Centre to centre-right",
             },
             {
                 name: "Republican Left of Catalonia",
@@ -19425,7 +19425,7 @@ const database = [
             {
                 name: "Monarchist Cause",
                 color: "#014A94",
-                position: "Right-Wing",
+                position: "Right-wing",
             },
             {
                 name: "Democratic Leftwing Republican Party",
@@ -19468,7 +19468,7 @@ const database = [
             {
                 name: "Monarchist Cause",
                 color: "#014A94",
-                position: "Right-Wing",
+                position: "Right-wing",
             },
             {
                 name: "Portuguese Catholic Centre",
@@ -19498,12 +19498,12 @@ const database = [
             {
                 name: "Evolutionist Party",
                 color: "#FFD700",
-                position: "Center-right",
+                position: "Centre-right",
             },
             {
                 name: "Republican Union (Portugal)",
                 color: "#A52A2A",
-                position: "Center-right",
+                position: "Centre-right",
             },
             {
                 name: "Portuguese Socialist Party",
@@ -19533,7 +19533,7 @@ const database = [
             {
                 name: "Monarchist Cause",
                 color: "#014A94",
-                position: "Right-Wing",
+                position: "Right-wing",
             },
             {
                 name: "Portuguese Catholic Centre",
@@ -19562,12 +19562,12 @@ const database = [
             {
                 name: "Evolutionist Party",
                 color: "#FFD700",
-                position: "Center-right",
+                position: "Centre-right",
             },
             {
                 name: "Republican Union (Portugal)",
                 color: "#A52A2A",
-                position: "Center-right",
+                position: "Centre-right",
             },
             {
                 name: "Portuguese Socialist Party",
@@ -19597,12 +19597,12 @@ const database = [
             {
                 name: "Evolutionist Party",
                 color: "#FFD700",
-                position: "Center-right",
+                position: "Centre-right",
             },
             {
                 name: "Republican Union (Portugal)",
                 color: "#A52A2A",
-                position: "Center-right",
+                position: "Centre-right",
             },
             {
                 name: "Portuguese Socialist Party",
@@ -20083,7 +20083,7 @@ const database = [
             {
                 name: "People's Party (Belgium)",
                 color: "#842973",
-                position: "Far-right Historically: Right-wing (until 2016)",
+                position: "Far-right",
             },
         ],
     },
@@ -20648,7 +20648,7 @@ const database = [
                 name: "Christian Union (Netherlands)",
                 color: "#00A7EB",
                 position:
-                    "Economic: Centre to centre-left Social: Centre-right",
+                    "Economic: Centre to centre-left; Social: Centre-right",
             },
         ],
     },
@@ -20780,7 +20780,7 @@ const database = [
                 name: "Christian Union (Netherlands)",
                 color: "#00A7EB",
                 position:
-                    "Economic: Centre to centre-left Social: Centre-right",
+                    "Economic: Centre to centre-left; Social: Centre-right",
             },
             {
                 name: "Volt Netherlands",
@@ -20842,7 +20842,7 @@ const database = [
                 name: "Christian Union (Netherlands)",
                 color: "#00A7EB",
                 position:
-                    "Economic: Centre to centre-left Social: Centre-right",
+                    "Economic: Centre to centre-left; Social: Centre-right",
             },
             {
                 name: "Party for the Animals",
@@ -20909,7 +20909,7 @@ const database = [
                 name: "ChristianUnion",
                 color: "#00A7EB",
                 position:
-                    "Economic: Centre to centre-left Social: Centre-right",
+                    "Economic: Centre to centre-left; Social: Centre-right",
             },
             {
                 name: "GreenLeft",
@@ -20983,7 +20983,7 @@ const database = [
                 name: "ChristianUnion",
                 color: "#00A7EB",
                 position:
-                    "Economic: Centre to centre-left Social: Centre-right",
+                    "Economic: Centre to centre-left; Social: Centre-right",
             },
             {
                 name: "Reformed Political Party",
@@ -21049,7 +21049,7 @@ const database = [
                 name: "Christian Union (Netherlands)",
                 color: "#00A7EB",
                 position:
-                    "Economic: Centre to centre-left Social: Centre-right",
+                    "Economic: Centre to centre-left; Social: Centre-right",
             },
             {
                 name: "Democrats 66",
@@ -21122,7 +21122,7 @@ const database = [
                 name: "ChristianUnion",
                 color: "#00A7EB",
                 position:
-                    "Economic: Centre to centre-left Social: Centre-right",
+                    "Economic: Centre to centre-left; Social: Centre-right",
             },
             {
                 name: "Reformed Political Party",
@@ -21191,7 +21191,7 @@ const database = [
                 name: "Christian Union (Netherlands)",
                 color: "#00A7EB",
                 position:
-                    "Economic: Centre to centre-left Social: Centre-right",
+                    "Economic: Centre to centre-left; Social: Centre-right",
             },
             {
                 name: "Reformed Political Party",
@@ -21320,7 +21320,7 @@ const database = [
             {
                 name: "Centre Democrats (Netherlands)",
                 color: "#7F663D",
-                position: "Right-wing to Far-right",
+                position: "Right-wing to far-right",
             },
             {
                 name: "Reformatory Political Federation",
@@ -21399,7 +21399,7 @@ const database = [
             {
                 name: "Centre Democrats (Netherlands)",
                 color: "#7F663D",
-                position: "Right-wing to Far-right",
+                position: "Right-wing to far-right",
             },
             {
                 name: "Socialist Party",
@@ -21548,7 +21548,7 @@ const database = [
             {
                 name: "Palikot's Movement",
                 color: "#F08705",
-                position: "Economic:Right-wingSociocultural:Left-wing",
+                position: "Economic: Right-wing; Social: Left-wing",
             },
             {
                 name: "Polish People's Party",
@@ -21800,7 +21800,7 @@ const database = [
             {
                 name: "Alliance of Democrats (Poland)",
                 color: "#475196",
-                position: "Centre-left to left-wingUntil 1990: Far-left",
+                position: "Centre-left to left-wing",
             },
             {
                 name: "PAX Association",
@@ -21978,7 +21978,7 @@ const database = [
             {
                 name: "Alliance of Democrats (Poland)",
                 color: "#475196",
-                position: "Centre-left to left-wingUntil 1990: Far-left",
+                position: "Centre-left to left-wing",
             },
             {
                 name: "PAX Association",
@@ -22090,7 +22090,7 @@ const database = [
             {
                 name: "Association of National Parties and Organizations",
                 color: "#F8F9FA",
-                position: "Right-wing politics",
+                position: "Right-wing",
             },
             {
                 name: "Popular Councils",
@@ -22110,7 +22110,7 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: 'Popular Association "Odrodzenie"',
@@ -22155,7 +22155,7 @@ const database = [
             {
                 name: 'Polish People\'s Party "Piast" (1913–1931)',
                 color: "#046834",
-                position: "Before 1923:Centre-left",
+                position: "Centre-left",
             },
             {
                 name: "Polish People's Union",
@@ -22350,12 +22350,12 @@ const database = [
             {
                 name: "Party of Social Justice",
                 color: "#0094DE",
-                position: "Center-left",
+                position: "Centre-left",
             },
             {
                 name: "Democratic Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
         ],
     },
@@ -22469,7 +22469,7 @@ const database = [
             {
                 name: "Agrarian Party of Russia",
                 color: "#EED23C",
-                position: "Centre to centre-leftBefore 2009:Left-wing",
+                position: "Centre to centre-left",
             },
             {
                 name: "YaBL",
@@ -22564,7 +22564,7 @@ const database = [
                 name: "Constitutional Democratic Party",
                 color: "#0087DC",
                 position:
-                    "1905–1906Centre-left to left-wing After 1906Centre to centre-right",
+                    "Centre-left to left-wing → Centre to centre-right",
             },
             {
                 name: "Alash",
@@ -22600,7 +22600,7 @@ const database = [
                 name: "Kadet",
                 color: "#6BB393",
                 position:
-                    "1905–1906Centre-left to left-wing After 1906Centre to centre-right",
+                    "Centre-left to left-wing → Centre to centre-right",
             },
             {
                 name: "Progressive Party (Russia)",
@@ -22637,7 +22637,7 @@ const database = [
                 name: "Kadet",
                 color: "#6BB393",
                 position:
-                    "1905–1906Centre-left to left-wing After 1906Centre to centre-right",
+                    "Centre-left to left-wing → Centre to centre-right",
             },
             {
                 name: "Renovation",
@@ -22708,7 +22708,7 @@ const database = [
                 name: "Constitutional Democratic Party",
                 color: "#0087DC",
                 position:
-                    "1905–1906Centre-left to left-wing After 1906Centre to centre-right",
+                    "Centre-left to left-wing → Centre to centre-right",
             },
             {
                 name: "Trudoviks",
@@ -23155,7 +23155,7 @@ const database = [
             {
                 name: "Batkivshchyna",
                 color: "#ED1C24",
-                position: "Centre-left Faction: Centre to centre-right",
+                position: "Centre-left",
             },
             {
                 name: "European Solidarity",
@@ -23205,7 +23205,7 @@ const database = [
             {
                 name: "Batkivshchyna",
                 color: "#ED1C24",
-                position: "Centre-left Faction: Centre to centre-right",
+                position: "Centre-left",
             },
             {
                 name: "Svoboda (political party)",
@@ -23231,7 +23231,7 @@ const database = [
             {
                 name: "Batkivshchyna",
                 color: "#ED1C24",
-                position: "Centre-left Faction: Centre to centre-right",
+                position: "Centre-left",
             },
             {
                 name: "Ukrainian Democratic Alliance for Reform",
@@ -23447,7 +23447,7 @@ const database = [
             {
                 name: "Ukrainian Republican Party",
                 color: "#FEBF10",
-                position: "Right-wing or far-right.",
+                position: "Right-wing to far-right",
             },
             {
                 name: "Congress of Ukrainian Nationalists",
@@ -23512,7 +23512,7 @@ const database = [
             {
                 name: "Batkivshchyna",
                 color: "#ED1C24",
-                position: "Centre-left Faction: Centre to centre-right",
+                position: "Centre-left",
             },
             {
                 name: "European Solidarity",
@@ -23684,7 +23684,7 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "NOW Platform DA and PAS",
@@ -23726,7 +23726,7 @@ const database = [
             {
                 name: "Ecologist Green Party",
                 color: "#F8F9FA",
-                position: "Centre-left Faction: Centre-right",
+                position: "Centre-left",
             },
         ],
     },
@@ -23820,7 +23820,7 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Democratic Party of Moldova",
@@ -23955,7 +23955,7 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Centrist Union",
@@ -24070,7 +24070,7 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "National Liberal Party",
@@ -24216,7 +24216,7 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Association of the Victims of the Totalitarian Regime",
@@ -24274,7 +24274,7 @@ const database = [
             {
                 name: "Ecologist Party of Romania",
                 color: "#07733F",
-                position: "Fiscal: CentreCultural: Right-wing",
+                position: "Fiscal: Centre; Cultural: Right-wing",
             },
             {
                 name: "Romanian Socialist Democratic Party",
@@ -24789,7 +24789,7 @@ const database = [
             {
                 name: "For Each and Every One",
                 color: "#F9873E",
-                position: "Centre Historical Right-wing to far-right",
+                position: "Right-wing to far-right → Centre",
             },
             {
                 name: "Latvian Russian Union",
@@ -25508,7 +25508,7 @@ const database = [
             {
                 name: "For Each and Every One",
                 color: "#F9873E",
-                position: "Centre Historical Right-wing to far-right",
+                position: "Right-wing to far-right → Centre",
             },
             {
                 name: "Latvian Russian Union",
@@ -25542,7 +25542,7 @@ const database = [
             {
                 name: "Dawn of Nemunas",
                 color: "#F25D23",
-                position: "Fiscal: Centre-left",
+                position: "Centre-left",
             },
             {
                 name: 'Union of Democrats "For Lithuania"',
@@ -26225,7 +26225,7 @@ const database = [
             {
                 name: "Association of National Parties and Organizations",
                 color: "#F8F9FA",
-                position: "Right-wing politics",
+                position: "Right-wing",
             },
             {
                 name: "Popular Councils",
@@ -26245,7 +26245,7 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: 'Popular Association "Odrodzenie"',
@@ -30216,7 +30216,7 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
         ],
     },
@@ -30660,7 +30660,7 @@ const database = [
             {
                 name: "Natural Law Party",
                 color: "#ffe4e1",
-                position: "Centre-Left",
+                position: "Centre-left",
             },
             {
                 name: "Westfjords List",
@@ -30689,7 +30689,7 @@ const database = [
             {
                 name: "Democratic Party (United States)",
                 color: "#3333FF",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
         ],
     },
@@ -30710,7 +30710,7 @@ const database = [
             {
                 name: "Democratic Party (United States)",
                 color: "#3333FF",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
         ],
     },
@@ -30726,7 +30726,7 @@ const database = [
             {
                 name: "Democratic Party (United States)",
                 color: "#3333FF",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Republican Party (United States)",
@@ -30747,7 +30747,7 @@ const database = [
             {
                 name: "Democratic Party (United States)",
                 color: "#3333FF",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Republican Party (United States)",
@@ -30773,7 +30773,7 @@ const database = [
             {
                 name: "Democratic Party (United States)",
                 color: "#3333FF",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
         ],
     },
@@ -30794,7 +30794,7 @@ const database = [
             {
                 name: "Democratic Party (United States)",
                 color: "#3333FF",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
         ],
     },
@@ -30815,7 +30815,7 @@ const database = [
             {
                 name: "Democratic Party (United States)",
                 color: "#3333FF",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
         ],
     },
@@ -30836,7 +30836,7 @@ const database = [
             {
                 name: "Democratic Party (United States)",
                 color: "#3333FF",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
         ],
     },
@@ -31671,7 +31671,7 @@ const database = [
             {
                 name: "Social Encounter Party",
                 color: "#6E2F7D",
-                position: "Right-wing to far-Right",
+                position: "Right-wing to far-right",
             },
             {
                 name: "Institutional Revolutionary Party",
@@ -31686,7 +31686,7 @@ const database = [
             {
                 name: "Ecologist Green Party of Mexico",
                 color: "#9AC95E",
-                position: "Centre-left Faction: Centre-right",
+                position: "Centre-left",
             },
             {
                 name: "New Alliance Party (Mexico)",
@@ -32058,7 +32058,7 @@ const database = [
             {
                 name: "Christian Democratic Party of Honduras",
                 color: "#11992B",
-                position: "Center-right",
+                position: "Centre-right",
             },
         ],
     },
@@ -32088,7 +32088,7 @@ const database = [
             {
                 name: "Christian Democratic Party of Honduras",
                 color: "#11992B",
-                position: "Center-right",
+                position: "Centre-right",
             },
             {
                 name: "Anti-Corruption Party",
@@ -32133,12 +32133,12 @@ const database = [
             {
                 name: "Democratic Unification Party",
                 color: "#FEF100",
-                position: "Centre-leftBefore 2014:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "Christian Democratic Party of Honduras",
                 color: "#11992B",
-                position: "Center-right",
+                position: "Centre-right",
             },
             {
                 name: "Anti-Corruption Party",
@@ -32178,12 +32178,12 @@ const database = [
             {
                 name: "Democratic Unification Party",
                 color: "#FEF100",
-                position: "Centre-leftBefore 2014:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "Christian Democratic Party of Honduras",
                 color: "#11992B",
-                position: "Center-right",
+                position: "Centre-right",
             },
         ],
     },
@@ -32214,12 +32214,12 @@ const database = [
             {
                 name: "Christian Democratic Party of Honduras",
                 color: "#11992B",
-                position: "Center-right",
+                position: "Centre-right",
             },
             {
                 name: "Democratic Unification Party",
                 color: "#FEF100",
-                position: "Centre-leftBefore 2014:Left-wing",
+                position: "Centre-left",
             },
         ],
     },
@@ -32245,7 +32245,7 @@ const database = [
             {
                 name: "Democratic Unification Party",
                 color: "#FEF100",
-                position: "Centre-leftBefore 2014:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "Innovation and Unity Party",
@@ -32255,7 +32255,7 @@ const database = [
             {
                 name: "Christian Democratic Party of Honduras",
                 color: "#11992B",
-                position: "Center-right",
+                position: "Centre-right",
             },
         ],
     },
@@ -32613,7 +32613,7 @@ const database = [
             {
                 name: "FMLN",
                 color: "#F8F9FA",
-                position: "Left-wing to far-left Historically: Far-left",
+                position: "Far-left → Left-wing to far-left",
             },
             {
                 name: "PCN",
@@ -32661,17 +32661,17 @@ const database = [
             {
                 name: "Nationalist Republican Alliance",
                 color: "#234B9A",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Farabundo Martí National Liberation Front",
                 color: "#D3252F",
-                position: "Left-wing to far-left Historically: Far-left",
+                position: "Far-left → Left-wing to far-left",
             },
             {
                 name: "Grand Alliance for National Unity",
                 color: "#F28900",
-                position: "Center-right",
+                position: "Centre-right",
             },
             {
                 name: "PCN",
@@ -32680,7 +32680,7 @@ const database = [
             {
                 name: "Christian Democratic Party (El Salvador)",
                 color: "#00732E",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "CD",
@@ -32708,17 +32708,17 @@ const database = [
             {
                 name: "Nationalist Republican Alliance",
                 color: "#234B9A",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Farabundo Martí National Liberation Front",
                 color: "#D3252F",
-                position: "Left-wing to far-left Historically: Far-left",
+                position: "Far-left → Left-wing to far-left",
             },
             {
                 name: "Grand Alliance for National Unity",
                 color: "#E67306",
-                position: "Center-right",
+                position: "Centre-right",
             },
             {
                 name: "PCN",
@@ -32727,7 +32727,7 @@ const database = [
             {
                 name: "Christian Democratic Party (El Salvador)",
                 color: "#00732E",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "PDC",
@@ -32770,27 +32770,27 @@ const database = [
             {
                 name: "Nationalist Republican Alliance",
                 color: "#234B9A",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Farabundo Martí National Liberation Front",
                 color: "#D3252F",
-                position: "Left-wing to far-left Historically: Far-left",
+                position: "Far-left → Left-wing to far-left",
             },
             {
                 name: "Grand Alliance for National Unity",
                 color: "#E67306",
-                position: "Center-right",
+                position: "Centre-right",
             },
             {
                 name: "National Coalition Party (El Salvador)",
                 color: "#0B58DC",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Christian Democratic Party (El Salvador)",
                 color: "#00732E",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Democratic Change",
@@ -32819,22 +32819,22 @@ const database = [
             {
                 name: "Farabundo Martí National Liberation Front",
                 color: "#D3252F",
-                position: "Left-wing to far-left Historically: Far-left",
+                position: "Far-left → Left-wing to far-left",
             },
             {
                 name: "Nationalist Republican Alliance",
                 color: "#234B9A",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "National Coalition Party (El Salvador)",
                 color: "#0B58DC",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Christian Democratic Party (El Salvador)",
                 color: "#00732E",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Democratic Change (El Salvador)",
@@ -32859,22 +32859,22 @@ const database = [
             {
                 name: "Farabundo Martí National Liberation Front",
                 color: "#D3252F",
-                position: "Left-wing to far-left Historically: Far-left",
+                position: "Far-left → Left-wing to far-left",
             },
             {
                 name: "Nationalist Republican Alliance",
                 color: "#234B9A",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "National Coalition Party (El Salvador)",
                 color: "#0B58DC",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Christian Democratic Party (El Salvador)",
                 color: "#00732E",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Democratic Change (El Salvador)",
@@ -32900,22 +32900,22 @@ const database = [
             {
                 name: "Farabundo Martí National Liberation Front",
                 color: "#D3252F",
-                position: "Left-wing to far-left Historically: Far-left",
+                position: "Far-left → Left-wing to far-left",
             },
             {
                 name: "Nationalist Republican Alliance",
                 color: "#234B9A",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "National Coalition Party (El Salvador)",
                 color: "#0B58DC",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Christian Democratic Party (El Salvador)",
                 color: "#00732E",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "United Democratic Centre (El Salvador)",
@@ -32963,22 +32963,22 @@ const database = [
             {
                 name: "Nationalist Republican Alliance",
                 color: "#234B9A",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Farabundo Martí National Liberation Front",
                 color: "#D3252F",
-                position: "Left-wing to far-left Historically: Far-left",
+                position: "Far-left → Left-wing to far-left",
             },
             {
                 name: "National Coalition Party (El Salvador)",
                 color: "#0B58DC",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Christian Democratic Party (El Salvador)",
                 color: "#00732E",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "United Democratic Centre (El Salvador)",
@@ -33017,22 +33017,22 @@ const database = [
             {
                 name: "Nationalist Republican Alliance",
                 color: "#234B9A",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Farabundo Martí National Liberation Front",
                 color: "#D3252F",
-                position: "Left-wing to far-left Historically: Far-left",
+                position: "Far-left → Left-wing to far-left",
             },
             {
                 name: "National Coalition Party (El Salvador)",
                 color: "#0B58DC",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Christian Democratic Party (El Salvador)",
                 color: "#00732E",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "PRCS",
@@ -33046,7 +33046,7 @@ const database = [
             {
                 name: "Liberal Democratic Party (El Salvador)",
                 color: "#E7D055",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Movement of Unity",
@@ -33055,7 +33055,7 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Movement of National Solidarity",
@@ -33084,22 +33084,22 @@ const database = [
             {
                 name: "Nationalist Republican Alliance",
                 color: "#234B9A",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Farabundo Martí National Liberation Front",
                 color: "#D3252F",
-                position: "Left-wing to far-left Historically: Far-left",
+                position: "Far-left → Left-wing to far-left",
             },
             {
                 name: "Christian Democratic Party (El Salvador)",
                 color: "#00732E",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "National Coalition Party (El Salvador)",
                 color: "#0B58DC",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Democratic Convergence (El Salvador)",
@@ -33124,12 +33124,12 @@ const database = [
             {
                 name: "Nationalist Republican Alliance",
                 color: "#234B9A",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Christian Democratic Party (El Salvador)",
                 color: "#00732E",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Democratic Convergence (El Salvador)",
@@ -33139,7 +33139,7 @@ const database = [
             {
                 name: "National Coalition Party (El Salvador)",
                 color: "#0B58DC",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Authentic Democratic Christian Movement",
@@ -33168,17 +33168,17 @@ const database = [
             {
                 name: "Nationalist Republican Alliance",
                 color: "#234B9A",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Christian Democratic Party (El Salvador)",
                 color: "#00732E",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "National Coalition Party (El Salvador)",
                 color: "#0B58DC",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Liberation Party",
@@ -33216,17 +33216,17 @@ const database = [
             {
                 name: "Christian Democratic Party (El Salvador)",
                 color: "#00732E",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Nationalist Republican Alliance",
                 color: "#234B9A",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "National Coalition Party (El Salvador)",
                 color: "#0B58DC",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Salvadoran Authentic Institutional Party",
@@ -33267,12 +33267,12 @@ const database = [
             {
                 name: "National Coalition Party (El Salvador)",
                 color: "#0B58DC",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "National Opposition Union (El Salvador)",
                 color: "#006400",
-                position: "Center-left",
+                position: "Centre-left",
             },
             {
                 name: "United Independent Democratic Front",
@@ -33311,22 +33311,22 @@ const database = [
             {
                 name: "Nuevas Ideas",
                 color: "#00ADEF",
-                position: "SyncreticFiscal: Center-leftSocial: Center-right",
+                position: "Fiscal: Centre-left; Social: Centre-right",
             },
             {
                 name: "Farabundo Martí National Liberation Front",
                 color: "#D3252F",
-                position: "Left-wing to far-left Historically: Far-left",
+                position: "Far-left → Left-wing to far-left",
             },
             {
                 name: "Nationalist Republican Alliance",
                 color: "#234B9A",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Nuestro Tiempo (El Salvador)",
                 color: "#93C97D",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Solidary Force",
@@ -33514,7 +33514,7 @@ const database = [
             {
                 name: "Patriotic Party (Guatemala)",
                 color: "#FF8000",
-                position: "Centre-right to Right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Renewed Democratic Liberty",
@@ -33603,7 +33603,7 @@ const database = [
             {
                 name: "National Centre Union",
                 color: "#002C77",
-                position: "Centre to centre right",
+                position: "Centre to centre-right",
             },
         ],
     },
@@ -33624,7 +33624,7 @@ const database = [
             {
                 name: "National Centre Union",
                 color: "#002C77",
-                position: "Centre to centre right",
+                position: "Centre to centre-right",
             },
         ],
     },
@@ -34328,7 +34328,7 @@ const database = [
             {
                 name: "Alajuelense Democratic Action",
                 color: "#FF7E1C",
-                position: "Center-left to left-wing",
+                position: "Centre-left to left-wing",
             },
         ],
     },
@@ -34664,7 +34664,7 @@ const database = [
             {
                 name: "Jamaica Labour Party",
                 color: "#00A94C",
-                position: "Centre-right Historically: Centre",
+                position: "Centre → Centre-right",
             },
             {
                 name: "People's National Party",
@@ -34685,7 +34685,7 @@ const database = [
             {
                 name: "Jamaica Labour Party",
                 color: "#00A94C",
-                position: "Centre-right Historically: Centre",
+                position: "Centre → Centre-right",
             },
             {
                 name: "People's National Party",
@@ -34711,7 +34711,7 @@ const database = [
             {
                 name: "Jamaica Labour Party",
                 color: "#00A94C",
-                position: "Centre-right Historically: Centre",
+                position: "Centre → Centre-right",
             },
         ],
     },
@@ -34727,7 +34727,7 @@ const database = [
             {
                 name: "Jamaica Labour Party",
                 color: "#00A94C",
-                position: "Centre-right Historically: Centre",
+                position: "Centre → Centre-right",
             },
             {
                 name: "People's National Party",
@@ -34753,7 +34753,7 @@ const database = [
             {
                 name: "Jamaica Labour Party",
                 color: "#00A94C",
-                position: "Centre-right Historically: Centre",
+                position: "Centre → Centre-right",
             },
         ],
     },
@@ -34774,12 +34774,12 @@ const database = [
             {
                 name: "Jamaica Labour Party",
                 color: "#00A94C",
-                position: "Centre-right Historically: Centre",
+                position: "Centre → Centre-right",
             },
             {
                 name: "National Democratic Movement",
                 color: "#F8F9FA",
-                position: "Center",
+                position: "Centre",
             },
         ],
     },
@@ -34952,12 +34952,12 @@ const database = [
             {
                 name: "Social Democratic Institutional Bloc",
                 color: "#ffb6c1",
-                position: "Center-left to left-wing",
+                position: "Centre-left to left-wing",
             },
             {
                 name: "Quisqueyano Christian Democratic Party",
                 color: "#FEDB1D",
-                position: "Center-right",
+                position: "Centre-right",
             },
             {
                 name: "Movement for Independence, Unity and Change",
@@ -34972,7 +34972,7 @@ const database = [
             {
                 name: "National Progressive Force",
                 color: "#2A52BE",
-                position: "Far-right.",
+                position: "Far-right",
             },
             {
                 name: "Revolutionary Social Democratic Party",
@@ -34996,7 +34996,7 @@ const database = [
             {
                 name: "Social Democratic Institutional Bloc",
                 color: "#ffb6c1",
-                position: "Center-left to left-wing",
+                position: "Centre-left to left-wing",
             },
             {
                 name: "Alliance for Democracy",
@@ -35028,7 +35028,7 @@ const database = [
             {
                 name: "Quisqueyano Christian Democratic Party",
                 color: "#FEDB1D",
-                position: "Center-right",
+                position: "Centre-right",
             },
             {
                 name: "Green Party of Democratic Unity",
@@ -35596,7 +35596,7 @@ const database = [
                 name: "Liberal Independent Movement",
                 color: "#F8F9FA",
                 position:
-                    "Social: Centre-left Fiscal: Centre-right to right-wing",
+                    "Fiscal: Centre-right to right-wing; Social: Centre-left",
             },
             {
                 name: "Others",
@@ -35987,7 +35987,7 @@ const database = [
                 name: "Independents for National Community",
                 color: "#F8F9FA",
                 position:
-                    "Social: Centre-left Fiscal: Centre-right to right-wing",
+                    "Fiscal: Centre-right to right-wing; Social: Centre-left",
             },
             {
                 name: "MIGATO",
@@ -36504,12 +36504,12 @@ const database = [
             {
                 name: "Fuerza Ecuador",
                 color: "#FFFF00",
-                position: "Big tentCentre-left (self-proclaimed)",
+                position: "Big tent",
             },
             {
                 name: "Advance (Ecuador)",
                 color: "#017DB6",
-                position: "Right-wing (since 2017)Big tent (2012–2017)",
+                position: "Right-wing",
             },
             {
                 name: "Local lists",
@@ -36777,7 +36777,7 @@ const database = [
             {
                 name: "American Popular Revolutionary Alliance",
                 color: "#DF0101",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
         ],
     },
@@ -36856,7 +36856,7 @@ const database = [
             {
                 name: "American Popular Revolutionary Alliance",
                 color: "#DF0101",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
         ],
     },
@@ -36872,7 +36872,7 @@ const database = [
             {
                 name: "American Popular Revolutionary Alliance",
                 color: "#DF0101",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Union for Peru",
@@ -36898,7 +36898,7 @@ const database = [
             {
                 name: "American Popular Revolutionary Alliance",
                 color: "#DF0101",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
         ],
     },
@@ -36944,7 +36944,7 @@ const database = [
             {
                 name: "American Popular Revolutionary Alliance",
                 color: "#DF0101",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "FIM",
@@ -37020,7 +37020,7 @@ const database = [
             {
                 name: "American Popular Revolutionary Alliance",
                 color: "#DF0101",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "United Left (Peru)",
@@ -37059,7 +37059,7 @@ const database = [
             {
                 name: "American Popular Revolutionary Alliance",
                 color: "#DF0101",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "PPC",
@@ -37110,7 +37110,7 @@ const database = [
             {
                 name: "American Popular Revolutionary Alliance",
                 color: "#DF0101",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
         ],
     },
@@ -37126,7 +37126,7 @@ const database = [
             {
                 name: "American Popular Revolutionary Alliance",
                 color: "#DF0101",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Popular Action (Peru)",
@@ -37156,7 +37156,7 @@ const database = [
             {
                 name: "American Popular Revolutionary Alliance",
                 color: "#DF0101",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Decentralist Party",
@@ -37343,7 +37343,7 @@ const database = [
             {
                 name: "Revolutionary Nationalist Movement",
                 color: "#F19CBB",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Social Democratic Power",
@@ -37430,7 +37430,7 @@ const database = [
             {
                 name: "Revolutionary Nationalist Movement",
                 color: "#F19CBB",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "CONDEPA",
@@ -37474,7 +37474,7 @@ const database = [
             {
                 name: "Revolutionary Nationalist Movement",
                 color: "#F19CBB",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Nationalist Democratic Action",
@@ -37515,7 +37515,7 @@ const database = [
             {
                 name: "Revolutionary Nationalist Movement",
                 color: "#F19CBB",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Nationalist Democratic Action",
@@ -37545,7 +37545,7 @@ const database = [
             {
                 name: "Revolutionary Nationalist Movement",
                 color: "#F19CBB",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Nationalist Democratic Action",
@@ -37560,7 +37560,7 @@ const database = [
             {
                 name: "Left-wing Revolutionary Nationalist Movement",
                 color: "#E34234",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
         ],
     },
@@ -37636,12 +37636,12 @@ const database = [
             {
                 name: "Revolutionary Nationalist Movement",
                 color: "#F19CBB",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Revolutionary Nationalist Movement of the People",
                 color: "#F8F9FA",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Liberation Front of the National Left",
@@ -37734,7 +37734,7 @@ const database = [
             {
                 name: "Republican Socialist Unity Party",
                 color: "#FF0000",
-                position: "Center-right",
+                position: "Centre-right",
             },
             {
                 name: "Revolutionary Left Party",
@@ -37749,7 +37749,7 @@ const database = [
             {
                 name: "Revolutionary Nationalist Movement",
                 color: "#F19CBB",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Revolutionary Workers' Party",
@@ -37779,7 +37779,7 @@ const database = [
             {
                 name: "Revolutionary Nationalist Movement",
                 color: "#F19CBB",
-                position: "Current:Centre-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Liberal Party",
@@ -37938,7 +37938,7 @@ const database = [
             {
                 name: "New Social Pact",
                 color: "#800080",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Christian Social Front",
@@ -37963,7 +37963,7 @@ const database = [
             {
                 name: "United Independents (Chile)",
                 color: "#274470",
-                position: "Right-wing to far-rightself-declared: Centre",
+                position: "Right-wing to far-right",
             },
             {
                 name: "Apruebo Dignidad",
@@ -38038,7 +38038,7 @@ const database = [
             {
                 name: "Socialist Party of Chile",
                 color: "#FFA500",
-                position: "Centre-leftBefore 1990:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "National Renewal (Chile)",
@@ -38067,7 +38067,7 @@ const database = [
             {
                 name: "Concertación",
                 color: "#FFA500",
-                position: "Majority: Centre-left",
+                position: "Centre-left",
             },
             {
                 name: "Alliance for Chile",
@@ -38088,7 +38088,7 @@ const database = [
             {
                 name: "Concertación",
                 color: "#FFA500",
-                position: "Majority: Centre-left",
+                position: "Centre-left",
             },
             {
                 name: "Union for Chile",
@@ -38253,7 +38253,7 @@ const database = [
             {
                 name: "Socialist Party of Chile",
                 color: "#CE0021",
-                position: "Centre-leftBefore 1990:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "Liberal Party (Chile, 1849)",
@@ -38296,7 +38296,7 @@ const database = [
             {
                 name: "Radical Party",
                 color: "#F8F9FA",
-                position: "Centre (since 2017)",
+                position: "Centre",
             },
             {
                 name: "Liberal Party",
@@ -38332,7 +38332,7 @@ const database = [
             {
                 name: "Democrat Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
         ],
     },
@@ -38348,7 +38348,7 @@ const database = [
             {
                 name: "Radical Party",
                 color: "#F8F9FA",
-                position: "Centre (since 2017)",
+                position: "Centre",
             },
             {
                 name: "Liberal Party",
@@ -38378,7 +38378,7 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Socialist Party",
@@ -38477,7 +38477,7 @@ const database = [
             {
                 name: "Radical Party",
                 color: "#F8F9FA",
-                position: "Centre (since 2017)",
+                position: "Centre",
             },
             {
                 name: "Liberal Party",
@@ -38500,7 +38500,7 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "National Falange",
@@ -38510,12 +38510,12 @@ const database = [
             {
                 name: "Democrat Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Popular Freedom Alliance",
                 color: "#808080",
-                position: "Far right (until 1942) Right-wing",
+                position: "Right-wing",
             },
             {
                 name: "Agrarian Party",
@@ -38540,7 +38540,7 @@ const database = [
             {
                 name: "Radical Party",
                 color: "#F8F9FA",
-                position: "Centre (since 2017)",
+                position: "Centre",
             },
             {
                 name: "Liberal Party",
@@ -38558,12 +38558,12 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Laborista Party",
                 color: "green",
-                position: "Left-wing to right-wing",
+                position: "Big tent",
             },
             {
                 name: "Agrarian Party",
@@ -38572,7 +38572,7 @@ const database = [
             {
                 name: "Democrat Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "National Falange",
@@ -38582,7 +38582,7 @@ const database = [
             {
                 name: "Popular Freedom Alliance",
                 color: "#808080",
-                position: "Far right (until 1942) Right-wing",
+                position: "Right-wing",
             },
             {
                 name: "Other parties",
@@ -38612,7 +38612,7 @@ const database = [
             {
                 name: "Radical Party",
                 color: "#F8F9FA",
-                position: "Centre (since 2017)",
+                position: "Centre",
             },
             {
                 name: "National Progressive Party",
@@ -38622,7 +38622,7 @@ const database = [
             {
                 name: "Democrat Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Socialist Party",
@@ -38688,7 +38688,7 @@ const database = [
             {
                 name: "Radical Party",
                 color: "#F8F9FA",
-                position: "Centre (since 2017)",
+                position: "Centre",
             },
             {
                 name: "Conservative Party",
@@ -38709,7 +38709,7 @@ const database = [
             {
                 name: "Radical Party",
                 color: "#F8F9FA",
-                position: "Centre (since 2017)",
+                position: "Centre",
             },
             {
                 name: "Liberal Party",
@@ -38734,7 +38734,7 @@ const database = [
             {
                 name: "Democrat Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Aliancistas)",
@@ -38808,7 +38808,7 @@ const database = [
             {
                 name: "Rikken Kokumintō",
                 color: "#A090E0",
-                position: "Centre-left to Centre-right",
+                position: "Centre-left to centre-right",
             },
             {
                 name: "Chūō Club",
@@ -38917,7 +38917,7 @@ const database = [
             {
                 name: "Por Santa Cruz",
                 color: "#0d69b4",
-                position: "Center",
+                position: "Centre",
             },
             {
                 name: "Juntos por el Cambio",
@@ -39080,7 +39080,7 @@ const database = [
             {
                 name: "Democratic Space For Victory",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Fueguian People's Movement",
@@ -39117,7 +39117,7 @@ const database = [
             {
                 name: "Socialist Party (Argentina)",
                 color: "#FF9900",
-                position: "Centre-leftInitially until 1959:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "Radical Civic Union",
@@ -39338,7 +39338,7 @@ const database = [
             {
                 name: "Por Santa Cruz",
                 color: "#0d69b4",
-                position: "Center",
+                position: "Centre",
             },
             {
                 name: "Juntos por el Cambio",
@@ -39432,7 +39432,7 @@ const database = [
             {
                 name: "Por Santa Cruz",
                 color: "#0d69b4",
-                position: "Center",
+                position: "Centre",
             },
             {
                 name: "Juntos por el Cambio",
@@ -39520,7 +39520,7 @@ const database = [
             {
                 name: "Por Santa Cruz",
                 color: "#0d69b4",
-                position: "Center",
+                position: "Centre",
             },
             {
                 name: "Juntos por el Cambio",
@@ -39605,7 +39605,7 @@ const database = [
             {
                 name: "Por Santa Cruz",
                 color: "#0d69b4",
-                position: "Center",
+                position: "Centre",
             },
             {
                 name: "Juntos por el Cambio",
@@ -39636,7 +39636,7 @@ const database = [
             {
                 name: "Union of the Argentine People",
                 color: "#00708B",
-                position: "Before 1973: Right-wing",
+                position: "Right-wing",
             },
             {
                 name: "Neoperonists",
@@ -39649,7 +39649,7 @@ const database = [
             {
                 name: "Argentine Socialist Party",
                 color: "#FF9900",
-                position: "Centre-leftInitially until 1959:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "Democratic Socialist Party",
@@ -39693,7 +39693,7 @@ const database = [
             {
                 name: "Union of the Argentine People",
                 color: "#00708B",
-                position: "Before 1973: Right-wing",
+                position: "Right-wing",
             },
             {
                 name: "Neoperonists",
@@ -39706,7 +39706,7 @@ const database = [
             {
                 name: "Argentine Socialist Party",
                 color: "#FF9900",
-                position: "Centre-leftInitially until 1959:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "Democratic Socialist Party",
@@ -40049,12 +40049,12 @@ const database = [
             {
                 name: "Socialist Party (Argentina)",
                 color: "#FF9900",
-                position: "Centre-leftInitially until 1959:Left-wing",
+                position: "Centre-left",
             },
             {
                 name: "Democratic Progressive Party (Argentina)",
                 color: "#005C9E",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "Entre Ríos Antipersonalist Radical Civic Union",
@@ -40297,7 +40297,7 @@ const database = [
             {
                 name: "Concertación",
                 color: "#003399",
-                position: "Majority: Centre-left",
+                position: "Centre-left",
             },
             {
                 name: "National Crusade Party",
@@ -40356,7 +40356,7 @@ const database = [
             {
                 name: "Hagamos",
                 color: "#5DC1B9",
-                position: "Center to center-right",
+                position: "Centre to centre-right",
             },
             {
                 name: "National Encounter Party",
@@ -40958,7 +40958,7 @@ const database = [
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
         ],
     },
@@ -40974,13 +40974,13 @@ const database = [
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
             {
                 name: "Brazilian Social Democracy Party",
                 color: "#0080FF",
                 position:
-                    "Centre-right Historical, now minority: Centre to centre-left",
+                    "Centre to centre-left → Centre-right",
             },
         ],
     },
@@ -40996,13 +40996,13 @@ const database = [
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
             {
                 name: "Brazilian Social Democracy Party",
                 color: "#0080FF",
                 position:
-                    "Centre-right Historical, now minority: Centre to centre-left",
+                    "Centre to centre-left → Centre-right",
             },
         ],
     },
@@ -41018,13 +41018,13 @@ const database = [
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
             {
                 name: "Brazilian Social Democracy Party",
                 color: "#0080FF",
                 position:
-                    "Centre-right Historical, now minority: Centre to centre-left",
+                    "Centre to centre-left → Centre-right",
             },
         ],
     },
@@ -41040,13 +41040,13 @@ const database = [
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
             {
                 name: "Brazilian Social Democracy Party",
                 color: "#0080FF",
                 position:
-                    "Centre-right Historical, now minority: Centre to centre-left",
+                    "Centre to centre-left → Centre-right",
             },
         ],
     },
@@ -41062,13 +41062,13 @@ const database = [
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
             {
                 name: "Brazilian Social Democracy Party",
                 color: "#0080FF",
                 position:
-                    "Centre-right Historical, now minority: Centre to centre-left",
+                    "Centre to centre-left → Centre-right",
             },
         ],
     },
@@ -41085,12 +41085,12 @@ const database = [
                 name: "Brazilian Social Democracy Party",
                 color: "#0080FF",
                 position:
-                    "Centre-right Historical, now minority: Centre to centre-left",
+                    "Centre to centre-left → Centre-right",
             },
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
             {
                 name: "Popular Socialist Party (Brazil)",
@@ -41155,12 +41155,12 @@ const database = [
                 name: "Brazilian Social Democracy Party",
                 color: "#0080FF",
                 position:
-                    "Centre-right Historical, now minority: Centre to centre-left",
+                    "Centre to centre-left → Centre-right",
             },
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
             {
                 name: "Party of the Reconstruction of the National Order",
@@ -41226,7 +41226,7 @@ const database = [
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
             {
                 name: "Liberal Party (Brazil, 2006)",
@@ -41297,7 +41297,7 @@ const database = [
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
             {
                 name: "Liberal Party (Brazil, 2006)",
@@ -41368,7 +41368,7 @@ const database = [
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
             {
                 name: "Liberal Party (Brazil, 2006)",
@@ -41439,7 +41439,7 @@ const database = [
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
             {
                 name: "Liberal Party (Brazil, 2006)",
@@ -41510,7 +41510,7 @@ const database = [
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
             {
                 name: "Liberal Party (Brazil, 2006)",
@@ -41581,7 +41581,7 @@ const database = [
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
             {
                 name: "Liberal Party (Brazil, 2006)",
@@ -41652,7 +41652,7 @@ const database = [
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
             {
                 name: "Liberal Party (Brazil, 2006)",
@@ -41723,7 +41723,7 @@ const database = [
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
             {
                 name: "Liberal Party (Brazil, 2006)",
@@ -41794,7 +41794,7 @@ const database = [
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
             {
                 name: "Liberal Party (Brazil, 2006)",
@@ -41865,7 +41865,7 @@ const database = [
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
             {
                 name: "Liberal Party (Brazil, 2006)",
@@ -41997,7 +41997,7 @@ const database = [
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
             {
                 name: "Liberal Party (Brazil, 2006)",
@@ -42118,7 +42118,7 @@ const database = [
             {
                 name: "Workers' Party (Brazil)",
                 color: "#e20e28",
-                position: "Centre-left Historical, now faction: Left-wing",
+                position: "Left-wing → Centre-left",
             },
             {
                 name: "Liberal Party (Brazil, 2006)",
@@ -42441,7 +42441,7 @@ const database = [
             {
                 name: "People's Party of Kazakhstan",
                 color: "#EE0D38",
-                position: "Left-wingUntil 2020:Far-left",
+                position: "Left-wing",
             },
             {
                 name: "Nationwide Social Democratic Party",
@@ -42472,7 +42472,7 @@ const database = [
             {
                 name: "People's Party of Kazakhstan",
                 color: "#EE0D38",
-                position: "Left-wingUntil 2020:Far-left",
+                position: "Left-wing",
             },
         ],
     },
@@ -42498,7 +42498,7 @@ const database = [
             {
                 name: "QKHP",
                 color: "#F8F9FA",
-                position: "Left-wingUntil 2020:Far-left",
+                position: "Left-wing",
             },
         ],
     },
@@ -42523,7 +42523,7 @@ const database = [
             {
                 name: "QKHP",
                 color: "#DC214F",
-                position: "Left-wingUntil 2020:Far-left",
+                position: "Left-wing",
             },
         ],
     },
@@ -42703,7 +42703,7 @@ const database = [
             {
                 name: "People's Democratic Party of Uzbekistan",
                 color: "#8D3589",
-                position: "Centre-left to Centre-right",
+                position: "Centre-left to centre-right",
             },
             {
                 name: "Justice Social Democratic Party",
@@ -42743,7 +42743,7 @@ const database = [
             {
                 name: "People's Democratic Party of Uzbekistan",
                 color: "#006400",
-                position: "Centre-left to Centre-right",
+                position: "Centre-left to centre-right",
             },
             {
                 name: "Ecological Party of Uzbekistan",
@@ -42768,7 +42768,7 @@ const database = [
             {
                 name: "People's Democratic Party of Uzbekistan",
                 color: "#8D3589",
-                position: "Centre-left to Centre-right",
+                position: "Centre-left to centre-right",
             },
             {
                 name: "Uzbekistan National Revival Democratic Party",
@@ -42803,7 +42803,7 @@ const database = [
             {
                 name: "People's Democratic Party of Uzbekistan",
                 color: "#8D3589",
-                position: "Centre-left to Centre-right",
+                position: "Centre-left to centre-right",
             },
             {
                 name: "Self-Sacrifice National Democratic Party",
@@ -42838,7 +42838,7 @@ const database = [
             {
                 name: "People's Democratic Party of Uzbekistan",
                 color: "#8D3589",
-                position: "Centre-left to Centre-right",
+                position: "Centre-left to centre-right",
             },
             {
                 name: "Self-Sacrifice National Democratic Party",
@@ -42878,7 +42878,7 @@ const database = [
             {
                 name: "People's Democratic Party of Uzbekistan",
                 color: "#8D3589",
-                position: "Centre-left to Centre-right",
+                position: "Centre-left to centre-right",
             },
             {
                 name: "Progress of the Fatherland Party",
@@ -43805,7 +43805,7 @@ const database = [
             {
                 name: "Georgian Dream",
                 color: "#27509C",
-                position: "Syncretic Fiscal: Centre-left Social: Right-wing",
+                position: "Fiscal: Centre-left; Social: Right-wing",
             },
             {
                 name: "United National Movement",
@@ -43831,7 +43831,7 @@ const database = [
             {
                 name: "Georgian Dream – Democratic Georgia",
                 color: "#F8F9FA",
-                position: "Syncretic Fiscal: Centre-left Social: Right-wing",
+                position: "Fiscal: Centre-left; Social: Right-wing",
             },
             {
                 name: "United National Movement",
@@ -44181,7 +44181,7 @@ const database = [
             {
                 name: "Pan-Armenian National Movement",
                 color: "#FFC601",
-                position: "Centre to center-right",
+                position: "Centre to centre-right",
             },
             {
                 name: "People's Party (Armenia)",
@@ -44195,7 +44195,7 @@ const database = [
             {
                 name: "Democratic Way Party",
                 color: "#87a1fe",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
         ],
     },
@@ -44326,7 +44326,7 @@ const database = [
             {
                 name: "Ecologist Party of Romania",
                 color: "#07733F",
-                position: "Fiscal: CentreCultural: Right-wing",
+                position: "Fiscal: Centre; Cultural: Right-wing",
             },
             {
                 name: "Romanian Socialist Democratic Party",
@@ -44453,7 +44453,7 @@ const database = [
             {
                 name: "Great Order Party",
                 color: "#ED2939",
-                position: "Centre-rightBefore 2006:Centre-left",
+                position: "Centre-right",
             },
         ],
     },
@@ -45274,7 +45274,7 @@ const database = [
             {
                 name: "Communist Party of Nepal (Unified Marxist–Leninist)",
                 color: "#cc0d0d",
-                position: "Centre-left to Left-wing",
+                position: "Centre-left to left-wing",
             },
             {
                 name: "Communist Party of Nepal (Maoist Centre)",
@@ -45334,7 +45334,7 @@ const database = [
             {
                 name: "Communist Party of Nepal (Unified Marxist–Leninist)",
                 color: "#cc0d0d",
-                position: "Centre-left to Left-wing",
+                position: "Centre-left to left-wing",
             },
             {
                 name: "Madheshi Jana Adhikar Forum, Nepal",
@@ -45365,7 +45365,7 @@ const database = [
             {
                 name: "Communist Party of Nepal (Unified Marxist–Leninist)",
                 color: "#cc0d0d",
-                position: "Centre-left to Left-wing",
+                position: "Centre-left to left-wing",
             },
             {
                 name: "Rastriya Prajatantra Party",
@@ -45386,7 +45386,7 @@ const database = [
             {
                 name: "Communist Party of Nepal (Unified Marxist-Leninist)",
                 color: "#cc0d0d",
-                position: "Centre-left to Left-wing",
+                position: "Centre-left to left-wing",
             },
             {
                 name: "Nepali Congress",
@@ -45412,7 +45412,7 @@ const database = [
             {
                 name: "Communist Party of Nepal (Unified Marxist-Leninist)",
                 color: "#cc0d0d",
-                position: "Centre-left to Left-wing",
+                position: "Centre-left to left-wing",
             },
             {
                 name: "Nepali Congress",
@@ -45459,7 +45459,7 @@ const database = [
             {
                 name: "People's Democratic Party (Bhutan)",
                 color: "#324D7A",
-                position: "Centre-left to Centre",
+                position: "Centre-left to centre",
             },
             {
                 name: "Bhutan Tendrel Party",
@@ -45501,7 +45501,7 @@ const database = [
             {
                 name: "People's Democratic Party (Bhutan)",
                 color: "#324D7A",
-                position: "Centre-left to Centre",
+                position: "Centre-left to centre",
             },
             {
                 name: "Bhutan Peace and Prosperity Party",
@@ -45527,7 +45527,7 @@ const database = [
             {
                 name: "People's Democratic Party (Bhutan)",
                 color: "#324D7A",
-                position: "Centre-left to Centre",
+                position: "Centre-left to centre",
             },
         ],
     },
@@ -45543,7 +45543,7 @@ const database = [
             {
                 name: "Pakistan Muslim League (N)",
                 color: "#228b22",
-                position: "Centre to Centre-right",
+                position: "Centre to centre-right",
             },
             {
                 name: "PTI",
@@ -45571,12 +45571,12 @@ const database = [
             {
                 name: "Pakistan Muslim League (N)",
                 color: "#228b22",
-                position: "Centre to Centre-right",
+                position: "Centre to centre-right",
             },
             {
                 name: "Pakistan People's Party",
                 color: "#000",
-                position: "Centre-left to Centre",
+                position: "Centre-left to centre",
             },
         ],
     },
@@ -45592,12 +45592,12 @@ const database = [
             {
                 name: "Pakistan Muslim League (N)",
                 color: "#228b22",
-                position: "Centre to Centre-right",
+                position: "Centre to centre-right",
             },
             {
                 name: "Pakistan Peoples Party",
                 color: "#000",
-                position: "Centre-left to Centre",
+                position: "Centre-left to centre",
             },
             {
                 name: "Pakistan Tehreek-e-Insaf",
@@ -45617,12 +45617,12 @@ const database = [
             {
                 name: "Pakistan Peoples Party",
                 color: "#000",
-                position: "Centre-left to Centre",
+                position: "Centre-left to centre",
             },
             {
                 name: "Pakistan Muslim League (N)",
                 color: "#228b22",
-                position: "Centre to Centre-right",
+                position: "Centre to centre-right",
             },
             {
                 name: "Pakistan Muslim League (Q)",
@@ -45657,7 +45657,7 @@ const database = [
             {
                 name: "Pakistan Muslim League (N)",
                 color: "#228b22",
-                position: "Centre to Centre-right",
+                position: "Centre to centre-right",
             },
         ],
     },
@@ -45693,7 +45693,7 @@ const database = [
             {
                 name: "Pakistan Peoples Party",
                 color: "#000",
-                position: "Centre-left to Centre",
+                position: "Centre-left to centre",
             },
             {
                 name: "PNA",
@@ -45713,7 +45713,7 @@ const database = [
             {
                 name: "Pakistan Peoples Party",
                 color: "#000",
-                position: "Centre-left to Centre",
+                position: "Centre-left to centre",
             },
             {
                 name: "PNA",
@@ -45738,7 +45738,7 @@ const database = [
             {
                 name: "Pakistan Peoples Party",
                 color: "#000",
-                position: "Centre-left to Centre",
+                position: "Centre-left to centre",
             },
         ],
     },
@@ -45798,7 +45798,7 @@ const database = [
             {
                 name: "National Islamic Movement of Afghanistan",
                 color: "#3F47CC",
-                position: "Centre-left to center-right",
+                position: "Centre-left to centre-right",
             },
             {
                 name: "Jamiat-e Islami",
@@ -45832,7 +45832,7 @@ const database = [
             {
                 name: "National Islamic Movement of Afghanistan",
                 color: "#3F47CC",
-                position: "Centre-left to center-right",
+                position: "Centre-left to centre-right",
             },
         ],
     },
@@ -46284,7 +46284,7 @@ const database = [
             {
                 name: "Anti-Fascist People's Freedom League",
                 color: "#DB2916",
-                position: "Left-wingFaction:Far-left (Until October 1948)",
+                position: "Left-wing",
             },
             {
                 name: "CPB",
@@ -46458,7 +46458,7 @@ const database = [
                 name: "Thai Nation Party",
                 color: "#FF69B4",
                 position:
-                    "Until 1988:Right-wing to far-right1988—2008:Centre-right to Right-wing",
+                    "Right-wing to far-right → Centre-right to right-wing",
             },
             {
                 name: "Puea Pandin",
@@ -46546,7 +46546,7 @@ const database = [
                 name: "Thai Nation Party",
                 color: "#FF69B4",
                 position:
-                    "Until 1988:Right-wing to far-right1988—2008:Centre-right to Right-wing",
+                    "Right-wing to far-right → Centre-right to right-wing",
             },
             {
                 name: "Mahachon",
@@ -46577,7 +46577,7 @@ const database = [
                 name: "Thai Nation Party",
                 color: "#FF69B4",
                 position:
-                    "Until 1988:Right-wing to far-right1988—2008:Centre-right to Right-wing",
+                    "Right-wing to far-right → Centre-right to right-wing",
             },
             {
                 name: "New Aspiration Party",
@@ -46617,12 +46617,12 @@ const database = [
                 name: "Thai Nation Party",
                 color: "#FF69B4",
                 position:
-                    "Until 1988:Right-wing to far-right1988—2008:Centre-right to Right-wing",
+                    "Right-wing to far-right → Centre-right to right-wing",
             },
             {
                 name: "Social Action Party",
                 color: "#00008B",
-                position: "Centre-left (1970s)Centre-right (1980s)",
+                position: "Centre-right",
             },
         ],
     },
@@ -46639,7 +46639,7 @@ const database = [
                 name: "Thai Nation Party",
                 color: "#FF69B4",
                 position:
-                    "Until 1988:Right-wing to far-right1988—2008:Centre-right to Right-wing",
+                    "Right-wing to far-right → Centre-right to right-wing",
             },
             {
                 name: "Democrat Party (Thailand)",
@@ -46683,7 +46683,7 @@ const database = [
                 name: "Thai Nation Party",
                 color: "#FF69B4",
                 position:
-                    "Until 1988:Right-wing to far-right1988—2008:Centre-right to Right-wing",
+                    "Right-wing to far-right → Centre-right to right-wing",
             },
             {
                 name: "Democrat Party (Thailand)",
@@ -46732,7 +46732,7 @@ const database = [
                 name: "Thai Nation Party",
                 color: "#FF69B4",
                 position:
-                    "Until 1988:Right-wing to far-right1988—2008:Centre-right to Right-wing",
+                    "Right-wing to far-right → Centre-right to right-wing",
             },
             {
                 name: "National Development Party (Thailand)",
@@ -46768,7 +46768,7 @@ const database = [
                 name: "Thai Nation Party",
                 color: "#FF69B4",
                 position:
-                    "Until 1988:Right-wing to far-right1988—2008:Centre-right to Right-wing",
+                    "Right-wing to far-right → Centre-right to right-wing",
             },
             {
                 name: "National Development Party (Thailand)",
@@ -46974,7 +46974,7 @@ const database = [
             {
                 name: "Malaysian United Indigenous Party",
                 color: "#E62020",
-                position: "Right-wing Until 2020: Centre-right",
+                position: "Right-wing",
             },
             {
                 name: "United Malays National Organisation",
@@ -47016,7 +47016,7 @@ const database = [
             {
                 name: "BERSATU",
                 color: "#ED1C24",
-                position: "Right-wing Until 2020: Centre-right",
+                position: "Right-wing",
             },
             {
                 name: "United Malays National Organisation",
@@ -47147,7 +47147,7 @@ const database = [
             {
                 name: "Malaysian United Indigenous Party",
                 color: "#E62020",
-                position: "Right-wing Until 2020: Centre-right",
+                position: "Right-wing",
             },
             {
                 name: "United Malays National Organisation",
@@ -47307,7 +47307,7 @@ const database = [
             {
                 name: "United Democratic Party (Malaysia)",
                 color: "#FF0000",
-                position: "Center-left",
+                position: "Centre-left",
             },
             {
                 name: "People's Progressive Party (Malaysia)",
@@ -47852,7 +47852,7 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Lao National Union Party",
@@ -47877,7 +47877,7 @@ const database = [
             {
                 name: "Democratic Party",
                 color: "#F8F9FA",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Lao National Union Party",
@@ -47940,7 +47940,7 @@ const database = [
             {
                 name: "National Unity Party (Philippines)",
                 color: "#104a21",
-                position: "Center-right",
+                position: "Centre-right",
             },
             {
                 name: "Nationalist People's Coalition",
@@ -47960,7 +47960,7 @@ const database = [
             {
                 name: "Liberal Party (Philippines)",
                 color: "#f0e68c",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Aksyon Demokratiko",
@@ -47979,7 +47979,7 @@ const database = [
             {
                 name: "People's Reform Party",
                 color: "#F08080",
-                position: "Center-left",
+                position: "Centre-left",
             },
             {
                 name: "Pwersa ng Masang Pilipino",
@@ -47988,7 +47988,7 @@ const database = [
             {
                 name: "United Nationalist Alliance",
                 color: "#FE4D00",
-                position: "Center-right",
+                position: "Centre-right",
             },
         ],
     },
@@ -48009,7 +48009,7 @@ const database = [
             {
                 name: "National Socialist Party (Philippines)",
                 color: "#B22222",
-                position: "Left-wing to right-wing",
+                position: "Big tent",
             },
             {
                 name: "Republican Party (Philippines)",
@@ -48330,7 +48330,7 @@ const database = [
             {
                 name: "Indonesian Democratic Party",
                 color: "#DB2016",
-                position: "Big tentMinority:Left-wing",
+                position: "Big tent",
             },
         ],
     },
@@ -48354,7 +48354,7 @@ const database = [
             {
                 name: "Indonesian Democratic Party",
                 color: "#DB2016",
-                position: "Big tentMinority:Left-wing",
+                position: "Big tent",
             },
         ],
     },
@@ -48683,7 +48683,7 @@ const database = [
             {
                 name: "Democrat Party",
                 color: "#CE361F",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "—",
@@ -48739,7 +48739,7 @@ const database = [
             {
                 name: "Democratic Party of Iranian Kurdistan",
                 color: "#FAFA33",
-                position: "Centre-leftHistorically:Left-wing",
+                position: "Left-wing → Centre-left",
             },
         ],
     },
@@ -48801,7 +48801,7 @@ const database = [
             {
                 name: "Democrat Party",
                 color: "#CE361F",
-                position: "Center to center-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "Moderate Socialists Party",
@@ -49744,12 +49744,12 @@ const database = [
             {
                 name: "Shas",
                 color: "#000000",
-                position: "Fiscal: Centre-left Social: Right-wing",
+                position: "Fiscal: Centre-left; Social: Right-wing",
             },
             {
                 name: "United Torah Judaism",
                 color: "#003366",
-                position: "Social: Right-wing Economic: Centre-left",
+                position: "Economic: Centre-left; Social: Right-wing",
             },
             {
                 name: "Yisrael Beiteinu",
@@ -49763,7 +49763,7 @@ const database = [
             {
                 name: "Hadash–Ta'al",
                 color: "#D42436",
-                position: "Left-wing Faction: Far-left",
+                position: "Left-wing",
             },
             {
                 name: "Israeli Labor Party",
@@ -49803,7 +49803,7 @@ const database = [
             {
                 name: "Shas",
                 color: "#000000",
-                position: "Fiscal: Centre-left Social: Right-wing",
+                position: "Fiscal: Centre-left; Social: Right-wing",
             },
             {
                 name: "Blue and White (political alliance)",
@@ -49823,7 +49823,7 @@ const database = [
             {
                 name: "United Torah Judaism",
                 color: "#003366",
-                position: "Social: Right-wing Economic: Centre-left",
+                position: "Economic: Centre-left; Social: Right-wing",
             },
             {
                 name: "Yisrael Beiteinu",
@@ -49879,12 +49879,12 @@ const database = [
             {
                 name: "Shas",
                 color: "#000000",
-                position: "Fiscal: Centre-left Social: Right-wing",
+                position: "Fiscal: Centre-left; Social: Right-wing",
             },
             {
                 name: "United Torah Judaism",
                 color: "#003366",
-                position: "Social: Right-wing Economic: Centre-left",
+                position: "Economic: Centre-left; Social: Right-wing",
             },
             {
                 name: "Labor-Gesher-Meretz",
@@ -49947,7 +49947,7 @@ const database = [
             {
                 name: "Shas",
                 color: "#000000",
-                position: "Fiscal: Centre-left Social: Right-wing",
+                position: "Fiscal: Centre-left; Social: Right-wing",
             },
             {
                 name: "Yisrael Beiteinu",
@@ -49957,7 +49957,7 @@ const database = [
             {
                 name: "United Torah Judaism",
                 color: "#003366",
-                position: "Social: Right-wing Economic: Centre-left",
+                position: "Economic: Centre-left; Social: Right-wing",
             },
             {
                 name: "Yamina",
@@ -50010,17 +50010,17 @@ const database = [
             {
                 name: "Shas",
                 color: "#000000",
-                position: "Fiscal: Centre-left Social: Right-wing",
+                position: "Fiscal: Centre-left; Social: Right-wing",
             },
             {
                 name: "United Torah Judaism",
                 color: "#003366",
-                position: "Social: Right-wing Economic: Centre-left",
+                position: "Economic: Centre-left; Social: Right-wing",
             },
             {
                 name: "Hadash–Ta'al",
                 color: "#D42436",
-                position: "Left-wing Faction: Far-left",
+                position: "Left-wing",
             },
             {
                 name: "Israeli Labor Party",
@@ -50099,7 +50099,7 @@ const database = [
             {
                 name: "Shas",
                 color: "#000000",
-                position: "Fiscal: Centre-left Social: Right-wing",
+                position: "Fiscal: Centre-left; Social: Right-wing",
             },
             {
                 name: "Yisrael Beiteinu",
@@ -50109,7 +50109,7 @@ const database = [
             {
                 name: "United Torah Judaism",
                 color: "#003366",
-                position: "Social: Right-wing Economic: Centre-left",
+                position: "Economic: Centre-left; Social: Right-wing",
             },
             {
                 name: "Meretz",
@@ -50159,12 +50159,12 @@ const database = [
             {
                 name: "Shas",
                 color: "#000000",
-                position: "Fiscal: Centre-left Social: Right-wing",
+                position: "Fiscal: Centre-left; Social: Right-wing",
             },
             {
                 name: "United Torah Judaism",
                 color: "#003366",
-                position: "Social: Right-wing Economic: Centre-left",
+                position: "Economic: Centre-left; Social: Right-wing",
             },
             {
                 name: "Hatnua",
@@ -50228,12 +50228,12 @@ const database = [
             {
                 name: "Shas",
                 color: "#000000",
-                position: "Fiscal: Centre-left Social: Right-wing",
+                position: "Fiscal: Centre-left; Social: Right-wing",
             },
             {
                 name: "United Torah Judaism",
                 color: "#003366",
-                position: "Social: Right-wing Economic: Centre-left",
+                position: "Economic: Centre-left; Social: Right-wing",
             },
             {
                 name: "Ra'am–Ta'al",
@@ -50289,7 +50289,7 @@ const database = [
             {
                 name: "Shas",
                 color: "#000000",
-                position: "Fiscal: Centre-left Social: Right-wing",
+                position: "Fiscal: Centre-left; Social: Right-wing",
             },
             {
                 name: "Likud",
@@ -50313,7 +50313,7 @@ const database = [
             {
                 name: "United Torah Judaism",
                 color: "#003366",
-                position: "Social: Right-wing Economic: Centre-left",
+                position: "Economic: Centre-left; Social: Right-wing",
             },
             {
                 name: "Meretz",
@@ -50359,12 +50359,12 @@ const database = [
             {
                 name: "Shinui",
                 color: "#3081C0",
-                position: "Before 1999: Centre-left",
+                position: "Centre-left",
             },
             {
                 name: "Shas",
                 color: "#000000",
-                position: "Fiscal: Centre-left Social: Right-wing",
+                position: "Fiscal: Centre-left; Social: Right-wing",
             },
             {
                 name: "National Union (Israel)",
@@ -50384,17 +50384,17 @@ const database = [
             {
                 name: "United Torah Judaism",
                 color: "#003366",
-                position: "Social: Right-wing Economic: Centre-left",
+                position: "Economic: Centre-left; Social: Right-wing",
             },
             {
                 name: "Hadash–Ta'al",
                 color: "#D42436",
-                position: "Left-wing Faction: Far-left",
+                position: "Left-wing",
             },
             {
                 name: "One Nation (Israel)",
                 color: "#A92F00",
-                position: "Center-left to left-wing",
+                position: "Centre-left to left-wing",
             },
             {
                 name: "Balad (political party)",
@@ -50430,7 +50430,7 @@ const database = [
             {
                 name: "Shas",
                 color: "#000000",
-                position: "Fiscal: Centre-left Social: Right-wing",
+                position: "Fiscal: Centre-left; Social: Right-wing",
             },
             {
                 name: "Meretz",
@@ -50445,7 +50445,7 @@ const database = [
             {
                 name: "Shinui",
                 color: "#3081C0",
-                position: "Before 1999: Centre-left",
+                position: "Centre-left",
             },
             {
                 name: "Centre Party",
@@ -50459,7 +50459,7 @@ const database = [
             {
                 name: "United Torah Judaism",
                 color: "#003366",
-                position: "Social: Right-wing Economic: Centre-left",
+                position: "Economic: Centre-left; Social: Right-wing",
             },
             {
                 name: "United Arab List",
@@ -50499,7 +50499,7 @@ const database = [
             {
                 name: "Shas",
                 color: "#000000",
-                position: "Fiscal: Centre-left Social: Right-wing",
+                position: "Fiscal: Centre-left; Social: Right-wing",
             },
             {
                 name: "National Religious Party",
@@ -50523,7 +50523,7 @@ const database = [
             {
                 name: "United Torah Judaism",
                 color: "#003366",
-                position: "Social: Right-wing Economic: Centre-left",
+                position: "Economic: Centre-left; Social: Right-wing",
             },
             {
                 name: "Third Way",
@@ -50577,12 +50577,12 @@ const database = [
             {
                 name: "Shas",
                 color: "#000000",
-                position: "Fiscal: Centre-left Social: Right-wing",
+                position: "Fiscal: Centre-left; Social: Right-wing",
             },
             {
                 name: "United Torah Judaism",
                 color: "#003366",
-                position: "Social: Right-wing Economic: Centre-left",
+                position: "Economic: Centre-left; Social: Right-wing",
             },
             {
                 name: "Hadash",
@@ -50632,7 +50632,7 @@ const database = [
             {
                 name: "Shas",
                 color: "#000000",
-                position: "Fiscal: Centre-left Social: Right-wing",
+                position: "Fiscal: Centre-left; Social: Right-wing",
             },
             {
                 name: "Agudat Yisrael",
@@ -50716,12 +50716,12 @@ const database = [
             {
                 name: "Shas",
                 color: "#000000",
-                position: "Fiscal: Centre-left Social: Right-wing",
+                position: "Fiscal: Centre-left; Social: Right-wing",
             },
             {
                 name: "Shinui",
                 color: "#3081C0",
-                position: "Before 1999: Centre-left",
+                position: "Centre-left",
             },
             {
                 name: "Ratz (political party)",
@@ -50766,7 +50766,7 @@ const database = [
             {
                 name: "Gahal",
                 color: "#143997",
-                position: "Center-right to right-wing",
+                position: "Centre-right to right-wing",
             },
             {
                 name: "National Religious Party",
@@ -50907,7 +50907,7 @@ const database = [
             {
                 name: "General Zionists",
                 color: "#00ADCC",
-                position: "Pre-1948: Centre",
+                position: "Centre",
             },
             {
                 name: "Ahdut HaAvoda",
@@ -50921,7 +50921,7 @@ const database = [
             {
                 name: "Progressive Party (Israel)",
                 color: "#FFC800",
-                position: "Center",
+                position: "Centre",
             },
             {
                 name: "Maki (historical political party)",
@@ -50973,17 +50973,17 @@ const database = [
             {
                 name: "General Zionists",
                 color: "#00ADCC",
-                position: "Pre-1948: Centre",
+                position: "Centre",
             },
             {
                 name: "Progressive Party (Israel)",
                 color: "#FFC800",
-                position: "Center",
+                position: "Centre",
             },
             {
                 name: "Sephardim and Oriental Communities",
                 color: "#0047AB",
-                position: "Center",
+                position: "Centre",
             },
             {
                 name: "Maki (historical political party)",
@@ -53429,7 +53429,7 @@ const database = [
                 name: "Kibō no Tō",
                 color: "#046240",
                 position:
-                    "Second incarnation: Right-wing First incarnation: Centre-right to right-wing",
+                    "Centre-right to right-wing → Right-wing",
             },
             {
                 name: "Komeito",
@@ -53506,7 +53506,7 @@ const database = [
             },
             {
                 name: "National Front for Social Justice",
-                position: "SyncreticFiscal: Left-wingSocial: Far-right",
+                position: "Fiscal: Left-wing; Social: Far-right",
             },
             {
                 name: "New Dawn (Algeria)",
@@ -53679,7 +53679,7 @@ const database = [
             },
             {
                 name: "National Front for Social Justice",
-                position: "SyncreticFiscal: Left-wingSocial: Far-right",
+                position: "Fiscal: Left-wing; Social: Far-right",
             },
             {
                 name: "New Dawn (Algeria)",
@@ -54122,7 +54122,7 @@ const database = [
                 name: "Sudan People's Liberation Movement",
                 color: "#0F47AF",
                 position:
-                    "Centre-left Left-wing (until 2005)Far-left (until the late 1980s)",
+                    "Far-left → Left-wing → Centre-left",
             },
             {
                 name: "Popular Congress Party (Sudan)",
@@ -54223,13 +54223,13 @@ const database = [
                 name: "Sudan People's Liberation Movement",
                 color: "#0F47AF",
                 position:
-                    "Centre-left Left-wing (until 2005)Far-left (until the late 1980s)",
+                    "Far-left → Left-wing → Centre-left",
             },
             {
                 name: "SPLM–DC",
                 color: "#F8F9FA",
                 position:
-                    "Centre-left Left-wing (until 2005)Far-left (until the late 1980s)",
+                    "Far-left → Left-wing → Centre-left",
             },
             {
                 name: "National Congress Party (Sudan)",
@@ -54276,7 +54276,7 @@ const database = [
             {
                 name: "Ethiopian Social Democratic Party",
                 color: "#F8F9FA",
-                position: "Center-left",
+                position: "Centre-left",
             },
             {
                 name: "Gedeo People's Democratic Party",
@@ -54817,7 +54817,7 @@ const database = [
                 name: "Chama Cha Mapinduzi",
                 color: "#00a64f",
                 position:
-                    "Economic:Centre-leftSocial:Right-wingUntil 1985:Left-wing",
+                    "Economic: Centre-left; Social: Right-wing",
             },
             {
                 name: "Chama cha Ukombozi wa Umma",
@@ -54838,7 +54838,7 @@ const database = [
                 name: "Chama Cha Mapinduzi",
                 color: "#00a64f",
                 position:
-                    "Economic:Centre-leftSocial:Right-wingUntil 1985:Left-wing",
+                    "Economic: Centre-left; Social: Right-wing",
             },
             {
                 name: "Chadema",
@@ -54860,7 +54860,7 @@ const database = [
                 name: "Chama Cha Mapinduzi",
                 color: "#00a64f",
                 position:
-                    "Economic:Centre-leftSocial:Right-wingUntil 1985:Left-wing",
+                    "Economic: Centre-left; Social: Right-wing",
             },
             {
                 name: "Chadema",
@@ -54999,7 +54999,7 @@ const database = [
                 name: "Chama Cha Mapinduzi",
                 color: "#00a64f",
                 position:
-                    "Economic:Centre-leftSocial:Right-wingUntil 1985:Left-wing",
+                    "Economic: Centre-left; Social: Right-wing",
             },
             {
                 name: "Chama cha Ukombozi wa Umma",
@@ -55480,7 +55480,7 @@ const database = [
                 name: "uMkhonto we Sizwe (political party)",
                 color: "#56AA48",
                 position:
-                    "Economic:Left-wing to far-left (disputed) Social:Right-wing to far-right",
+                    "Economic: Left-wing to far-left; Social: Right-wing to far-right",
             },
             {
                 name: "Economic Freedom Fighters",
@@ -55654,7 +55654,7 @@ const database = [
             {
                 name: "Labour Party (South Africa)",
                 color: "#FF0000",
-                position: "Fiscal: Left-wing Social: Right-wing",
+                position: "Fiscal: Left-wing; Social: Right-wing",
             },
         ],
     },
@@ -55679,7 +55679,7 @@ const database = [
             {
                 name: "Labour Party (South Africa)",
                 color: "#FF0000",
-                position: "Fiscal: Left-wing Social: Right-wing",
+                position: "Fiscal: Left-wing; Social: Right-wing",
             },
             {
                 name: "Dominion Party (South Africa)",
@@ -56058,7 +56058,7 @@ const database = [
             {
                 name: "UNITA",
                 color: "#006600",
-                position: "Centre-right to right-wing Formerly: Far-left",
+                position: "Far-left → Centre-right to right-wing",
             },
             {
                 name: "Social Renewal Party (Angola)",
@@ -56107,7 +56107,7 @@ const database = [
             {
                 name: "UNITA",
                 color: "#006600",
-                position: "Centre-right to right-wing Formerly: Far-left",
+                position: "Far-left → Centre-right to right-wing",
             },
             {
                 name: "CASA–CE",
@@ -56535,7 +56535,7 @@ const database = [
             {
                 name: "Union of Socialist Movements",
                 color: "#3F3991",
-                position: "Center-left",
+                position: "Centre-left",
             },
         ],
     },
@@ -56838,7 +56838,7 @@ const database = [
             {
                 name: "CDS-Rahama",
                 color: "#F8F9FA",
-                position: "Centre to Centre-left",
+                position: "Centre to centre-left",
             },
             {
                 name: "RDP-Jama'a",
@@ -56937,7 +56937,7 @@ const database = [
                 name: "People's Liberation Movement",
                 color: "#F8F9FA",
                 position:
-                    "Centre-left Left-wing (until 2005)Far-left (until the late 1980s)",
+                    "Far-left → Left-wing → Centre-left",
             },
             {
                 name: "Democratic Union for a New Benin",
@@ -57385,7 +57385,7 @@ const database = [
             {
                 name: "Madem G15",
                 color: "#01A35A",
-                position: "Centre-left to Centre-right",
+                position: "Centre-left to centre-right",
             },
         ],
     },
@@ -57421,7 +57421,7 @@ const database = [
             {
                 name: "United in Hope",
                 color: "#7A4D30",
-                position: "Centre Faction:Centre-left",
+                position: "Centre",
             },
             {
                 name: "Liberate the People",
@@ -57590,7 +57590,7 @@ const database = [
             {
                 name: "Association for the Rebirth of Madagascar",
                 color: "#FF0000",
-                position: "Centre-left Historically: Far-left",
+                position: "Far-left → Centre-left",
             },
             {
                 name: "National Union for the Refoundation and Reconstruction of Madagascar",

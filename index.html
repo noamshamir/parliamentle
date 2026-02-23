@@ -27,6 +27,7 @@
                 <button class="mode-btn" id="mode-random">Random</button>
             </div>
             <div class="toolbar-right">
+                <div class="reveal-button">Reveal</div>
                 <div class="toolbar-hints">
                     <div class="hint" id="hint-1">
                         <img src="assets/images/hint.png" />
@@ -147,6 +148,19 @@
                                 id="toggle-neighbors"
                                 checked
                             />
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+                    <div class="settings-item">
+                        <div class="settings-item-text">
+                            <div class="settings-label">Clean Games Only</div>
+                            <div class="settings-desc">
+                                Random mode only picks maps where every party
+                                has a name and a short political position
+                            </div>
+                        </div>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="toggle-clean" checked />
                             <span class="toggle-slider"></span>
                         </label>
                     </div>

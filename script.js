@@ -12,6 +12,7 @@ var HG_MAX_GUESSES = 8;
 var settingShowContinents = true;
 var settingShowNeighbors = true;
 var settingSnapToYears = false;
+var settingCleanOnly = true;
 var eligibleYears = [];
 
 function getDailyTarget() {
@@ -949,6 +950,33 @@ function hgInitTimeline() {
     });
 }
 
+function isCleanEntry(entry) {
+    if (!entry.parties || entry.parties.length === 0) return false;
+    for (var i = 0; i < entry.parties.length; i++) {
+        var p = entry.parties[i];
+        if (typeof p !== "object") return false;
+        if (!p.name || p.name.trim() === "") return false;
+        if (!p.position || p.position.trim() === "") return false;
+        // Allow arrow evolution (→) and axis labels (Fiscal:/Social:/etc.)
+        // Split on → first, then ; within each arrow-segment
+        var arrowParts = p.position.split("\u2192");
+        for (var a = 0; a < arrowParts.length; a++) {
+            var segments = arrowParts[a].split(";");
+            for (var s = 0; s < segments.length; s++) {
+                var seg = segments[s].trim();
+                // Strip axis labels like "Fiscal: ", "Social: ", etc.
+                seg = seg.replace(
+                    /^(Fiscal|Social|Economic|Cultural|Socially|Fiscally):\s*/i,
+                    "",
+                );
+                var words = seg.split(/\s+/);
+                if (words.length > 2) return false;
+            }
+        }
+    }
+    return true;
+}
+
 var hgCurrentMode = "daily";
 
 function hgLoadTarget(mode) {
@@ -1030,7 +1058,15 @@ function hgLoadTarget(mode) {
     if (mode === "daily") {
         target = getDailyTarget();
     } else {
-        target = database[Math.floor(Math.random() * database.length)];
+        var pool = database;
+        if (settingCleanOnly) {
+            pool = [];
+            for (var ci = 0; ci < database.length; ci++) {
+                if (isCleanEntry(database[ci])) pool.push(database[ci]);
+            }
+            if (pool.length === 0) pool = database;
+        }
+        target = pool[Math.floor(Math.random() * pool.length)];
     }
 
     var img = document.getElementById("hg-diagram-img");
@@ -1220,6 +1256,13 @@ window.onload = function () {
     if (toggleNeighbors) {
         toggleNeighbors.addEventListener("change", function () {
             settingShowNeighbors = this.checked;
+        });
+    }
+
+    var toggleClean = document.getElementById("toggle-clean");
+    if (toggleClean) {
+        toggleClean.addEventListener("change", function () {
+            settingCleanOnly = this.checked;
         });
     }
 
