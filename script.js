@@ -1407,21 +1407,22 @@ window.onload = function () {
         if (e.target === adminOverlay) adminCloseModal();
     });
 
+    var adminKeyBuffer = [];
     document.addEventListener("keydown", function (e) {
-        if (
-            (e.metaKey || e.ctrlKey) &&
-            !e.shiftKey &&
-            e.key.toLowerCase() === "k"
-        ) {
-            e.preventDefault();
+        if (e.key === "Escape" && adminOverlay.classList.contains("visible")) {
+            adminCloseModal();
+            return;
+        }
+        adminKeyBuffer.push(e.key.toLowerCase());
+        if (adminKeyBuffer.length > 10) adminKeyBuffer.shift();
+        var seq = adminKeyBuffer.slice(-4).join(",");
+        if (seq === "n,o,a,m") {
+            adminKeyBuffer = [];
             if (adminOverlay.classList.contains("visible")) {
                 adminCloseModal();
             } else {
                 adminOpen();
             }
-        }
-        if (e.key === "Escape" && adminOverlay.classList.contains("visible")) {
-            adminCloseModal();
         }
     });
 };
