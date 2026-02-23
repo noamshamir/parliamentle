@@ -19,7 +19,13 @@ function getDailyTarget() {
     var today = new Date();
     var diffTime = Math.abs(today - epoch);
     var diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
-    var index = diffDays % database.length;
+
+    // Deterministic hash so order isn't sequential but same for everyone
+    var h = diffDays;
+    h = ((h >>> 16) ^ h) * 0x45d9f3b | 0;
+    h = ((h >>> 16) ^ h) * 0x45d9f3b | 0;
+    h = (h >>> 16) ^ h;
+    var index = ((h % database.length) + database.length) % database.length;
     return database[index];
 }
 
