@@ -593,6 +593,11 @@ function hgMakeGuess() {
     }
     var yearDiff = Math.abs(userYear - target.year);
 
+    var isYearClose = false;
+    if (yearDiff !== 0 && yearDiff <= 5) {
+        isYearClose = true;
+    }
+
     var selectedPaths = document.querySelectorAll(
         'path[data-iso="' + selectedId + '"]',
     );
@@ -666,6 +671,8 @@ function hgMakeGuess() {
     var yTileClass = "hg-tile-year";
     if (yearDiff === 0) {
         yTileClass = "hg-tile-year exact";
+    } else if (isYearClose) {
+        yTileClass = "hg-tile-year close";
     }
 
     var yTileText = "";

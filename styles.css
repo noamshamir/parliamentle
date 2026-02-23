@@ -511,7 +511,7 @@ body {
 }
 
 .hg-map-wrapper path.neighbor {
-    fill: #d4a843;
+    fill: #b87c21;
 }
 
 .hg-map-wrapper path.is-country-hover {
@@ -749,7 +749,7 @@ body {
 }
 
 .hg-tile-neighbor {
-    background: #d4a843;
+    background: #b88a21;
 }
 
 .hg-tile-regional {
@@ -778,6 +778,11 @@ body {
 
 .hg-tile-year.exact {
     background: #538d4e;
+    color: #fff;
+}
+
+.hg-tile-year.close {
+    background: #b59f3b;
     color: #fff;
 }
 
