@@ -4,7 +4,6 @@ assets/*
 data.js.bak
 fix_map.js
 scripts/*
-index.html
 nohup.out
 script.js
 *.old

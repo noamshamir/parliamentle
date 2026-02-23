@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="nyt-header">
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="logo"><img src="assets/images/logo.png" /></div>
+        </div>
+        <div class="game-header">
+            <p class="game-name">Parliamentle</p>
+            <p class="date">February 22, 2026</p>
+        </div>
+        <div class="toolbar">
+            <div class="toolbar-modes">
+                <button class="mode-btn active" id="mode-daily">Daily</button>
+                <button class="mode-btn" id="mode-random">Random</button>
+            </div>
+            <div class="toolbar-right">
+                <div class="toolbar-hints">
+                    <div class="hint" id="hint-1">
+                        <img src="assets/images/hint.png" />
+                        <span>1</span>
+                    </div>
+                    <div class="hint" id="hint-2">
+                        <img src="assets/images/hint.png" />
+                        <span>2</span>
+                    </div>
+                    <div class="hint" id="hint-3">
+                        <img src="assets/images/hint.png" />
+                        <span>3</span>
+                    </div>
+                </div>
+                <div class="toolbar-settings">
+                    <div class="settings-icon" id="settings-btn">
+                        <img src="assets/images/settings.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hg-diagram-section">
+            <div class="hg-diagram-container">
+                <img
+                    id="hg-diagram-img"
+                    src=""
+                    alt="Parliament Diagram"
+                    referrerpolicy="no-referrer"
+                />
+            </div>
+            <div class="hg-hint-panel" id="hg-hint-panel"></div>
+        </div>
+
+        <div class="hg-divider"></div>
+
+        <div class="hg-bottom">
+            <div class="hg-bottom-left">
+                <div class="hg-map-wrapper">
+                    <div class="hg-zoom-controls">
+                        <button class="hg-zoom-btn" id="hg-zoom-in">+</button>
+                        <button class="hg-zoom-btn" id="hg-zoom-out">−</button>
+                        <button class="hg-zoom-btn" id="hg-zoom-reset">
+                            ↺
+                        </button>
+                    </div>
+                    <div id="hg-map-placeholder"></div>
+                </div>
+
+                <div class="hg-selected-country" id="hg-selected-country"></div>
+
+                <div class="hg-timeline-section">
+                    <div class="hg-timeline-viewport" id="hg-timeline-viewport">
+                        <div class="hg-timeline-indicator"></div>
+                        <div
+                            class="hg-timeline-track"
+                            id="hg-timeline-track"
+                        ></div>
+                    </div>
+                    <input
+                        type="text"
+                        class="hg-timeline-year"
+                        id="hg-timeline-year"
+                        value="—"
+                    />
+                </div>
+            </div>
+
+            <div class="hg-bottom-right">
+                <div class="hg-guess-section">
+                    <button class="hg-submit-btn" id="hg-submit-btn">
+                        Submit
+                    </button>
+                    <span class="hg-guess-counter" id="hg-guess-counter"></span>
+                </div>
+
+                <div class="hg-history" id="hg-history"></div>
+            </div>
+        </div>
+
+        <div class="settings-overlay" id="settings-overlay">
+            <div class="settings-modal">
+                <div class="settings-header">
+                    <div class="settings-title">SETTINGS</div>
+                    <button class="settings-close" id="settings-close">
+                        &times;
+                    </button>
+                </div>
+                <div class="settings-body">
+                    <div class="settings-item">
+                        <div class="settings-item-text">
+                            <div class="settings-label">Show Continents</div>
+                            <div class="settings-desc">
+                                Highlight the correct continent in light yellow
+                                on wrong country guesses
+                            </div>
+                        </div>
+                        <label class="toggle-switch">
+                            <input
+                                type="checkbox"
+                                id="toggle-continents"
+                                checked
+                            />
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+                    <div class="settings-item">
+                        <div class="settings-item-text">
+                            <div class="settings-label">Show Neighbors</div>
+                            <div class="settings-desc">
+                                Highlight neighboring countries in dark yellow
+                                when your guess borders the correct answer
+                            </div>
+                        </div>
+                        <label class="toggle-switch">
+                            <input
+                                type="checkbox"
+                                id="toggle-neighbors"
+                                checked
+                            />
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+                    <div class="settings-item">
+                        <div class="settings-item-text">
+                            <div class="settings-label">
+                                Snap to Election Years
+                            </div>
+                            <div class="settings-desc">
+                                Timeline only stops on years with elections for
+                                the selected country
+                            </div>
+                        </div>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="toggle-snap" />
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hg-modal-overlay" id="hg-modal-overlay">
+            <div class="hg-modal">
+                <div class="hg-modal-title" id="hg-modal-title"></div>
+                <div class="hg-modal-answer" id="hg-modal-answer"></div>
+                <div class="hg-modal-guesses" id="hg-modal-guesses"></div>
+                <button class="hg-modal-close" id="hg-modal-close">
+                    Close
+                </button>
+            </div>
+        </div>
+
+        <script src="data/worldmapsvg.js"></script>
+        <script src="data/regionmap.js"></script>
+        <script src="data/neighbormap.js"></script>
+        <script src="data/data.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
