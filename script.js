@@ -22,8 +22,8 @@ function getDailyTarget() {
 
     // Deterministic hash so order isn't sequential but same for everyone
     var h = diffDays;
-    h = ((h >>> 16) ^ h) * 0x45d9f3b | 0;
-    h = ((h >>> 16) ^ h) * 0x45d9f3b | 0;
+    h = (((h >>> 16) ^ h) * 0x45d9f3b) | 0;
+    h = (((h >>> 16) ^ h) * 0x45d9f3b) | 0;
     h = (h >>> 16) ^ h;
     var index = ((h % database.length) + database.length) % database.length;
     return database[index];
