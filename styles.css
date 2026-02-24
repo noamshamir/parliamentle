@@ -13,7 +13,11 @@
     src: url("assets/fonts/Franklin/LibreFranklin-ExtraLight.ttf")
         format("truetype");
 }
-
+@font-face {
+    font-family: "Franklin Regular";
+    src: url("assets/fonts/Franklin/LibreFranklin-Regular.ttf")
+        format("truetype");
+}
 @font-face {
     font-family: "Franklin Medium";
     src: url("assets/fonts/Franklin/LibreFranklin-Medium.ttf")
@@ -104,30 +108,99 @@ body {
 .toolbar-modes {
     display: flex;
     align-items: center;
-    gap: 12px;
+    /* gap: 12px; */
     padding-left: 20px;
 }
 
 .mode-btn {
-    font-family: "Franklin Medium", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Franklin Regular", sans-serif;
     font-size: 14px;
-    padding: 12px;
-    border: 1px solid black;
-    border-radius: 32px;
+    /* padding: 12px; */
+    /* border: 1px solid black; */
+    /* border-radius: 32px; */
+    border: none;
     width: 100px;
+    height: 60px;
+    font-size: 16px;
     background: #fff;
     cursor: pointer;
     transition: all 0.15s;
 }
 
 .mode-btn:hover {
-    background: #f0f0f0;
+    background-color: #ececec;
 }
 
 .mode-btn.active {
-    background: #050505;
-    color: #fff;
-    border-color: #222;
+    background-color: #e1e1e1;
+}
+
+#reveal-btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 120px;
+}
+
+#reveal-btn:active {
+    background-color: #ececec;
+}
+
+.reveal-dropdown {
+    position: relative;
+}
+
+.reveal-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fafafa;
+    border-radius: 0 0 4px 4px;
+    width: 120px;
+    z-index: 100;
+    overflow: hidden;
+}
+.reveal-trigger,
+#reveal-btn {
+    box-sizing: border-box;
+    padding: 12px 10px;
+}
+.reveal-menu.open {
+    display: block;
+}
+
+.reveal-menu.open ~ .reveal-trigger,
+.reveal-dropdown.open > #reveal-btn {
+    border: 1px solid #e1e1e1;
+    border-top: 0px;
+    border-bottom: 0px;
+    background-color: #ececec;
+}
+
+.reveal-menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    height: 60px;
+    font-family: "Franklin Regular", sans-serif;
+    font-size: 15px;
+    /* padding: 12px 20px; */
+    cursor: pointer;
+    border: 1px solid #e1e1e1;
+    border-top: none;
+    transition: background 0.1s;
+}
+
+.reveal-menu-item:first-child {
+    border-top: 1px solid #e1e1e1;
+}
+
+.reveal-menu-item:hover {
+    background-color: #e1e1e1;
 }
 
 .toolbar-hints {
@@ -148,7 +221,7 @@ body {
 }
 
 .settings-icon:hover {
-    background-color: #ebebeb;
+    background-color: #e1e1e1;
 }
 
 .settings-icon img {
@@ -299,7 +372,7 @@ body {
 }
 
 .hint:hover {
-    background-color: #ebebeb;
+    background-color: #e1e1e1;
 }
 
 .hint img {

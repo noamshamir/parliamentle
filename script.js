@@ -1173,6 +1173,96 @@ window.onload = function () {
             hgLoadTarget("random");
         });
 
+    // ── Reveal dropdown ──
+    var revealBtn = document.getElementById("reveal-btn");
+    var revealMenu = document.getElementById("reveal-menu");
+    var revealDropdown = document.getElementById("reveal-dropdown");
+
+    revealBtn.addEventListener("click", function (e) {
+        e.stopPropagation();
+        revealMenu.classList.toggle("open");
+        revealDropdown.classList.toggle("open");
+    });
+
+    document.addEventListener("click", function () {
+        revealMenu.classList.remove("open");
+        revealDropdown.classList.remove("open");
+    });
+
+    revealMenu.addEventListener("click", function (e) {
+        var item = e.target.closest(".reveal-menu-item");
+        if (!item || !target) return;
+        var action = item.getAttribute("data-reveal");
+        revealMenu.classList.remove("open");
+        revealDropdown.classList.remove("open");
+
+        if (action === "continent") {
+            // Highlight the target's region on the map, same as a correct-region guess
+            var correctId = target.ids ? target.ids[0] : target.id;
+            var targetRegion = getRegionByCountryId(correctId);
+            if (targetRegion) {
+                var regionCountries = regionMap[targetRegion];
+                if (regionCountries) {
+                    for (var rc = 0; rc < regionCountries.length; rc++) {
+                        var uid = regionCountries[rc].toUpperCase();
+                        var rPaths = document.querySelectorAll(
+                            'path[data-iso="' + uid + '"]',
+                        );
+                        for (var rp = 0; rp < rPaths.length; rp++) {
+                            if (
+                                !rPaths[rp].classList.contains("correct") &&
+                                !rPaths[rp].classList.contains("neighbor")
+                            ) {
+                                rPaths[rp].classList.add("regional");
+                            }
+                        }
+                    }
+                }
+            }
+        } else if (action === "country") {
+            // Reveal the country name and highlight it
+            var correctIds = target.ids ? target.ids : [target.id];
+            for (var ri = 0; ri < correctIds.length; ri++) {
+                var rPaths = document.querySelectorAll(
+                    'path[data-iso="' + correctIds[ri].toUpperCase() + '"]',
+                );
+                for (var rj = 0; rj < rPaths.length; rj++) {
+                    rPaths[rj].classList.add("correct");
+                }
+            }
+            countryGuessed = true;
+        } else if (action === "year") {
+            // Reveal the year and scroll timeline
+            var yearInput = document.getElementById("hg-timeline-year");
+            if (yearInput) yearInput.value = target.year;
+            if (window.hgScrollToYear) window.hgScrollToYear(target.year);
+            var timelineEl = document.getElementById("hg-timeline-viewport");
+            if (timelineEl)
+                timelineEl.scrollIntoView({
+                    behavior: "smooth",
+                    block: "center",
+                });
+        } else if (action === "puzzle") {
+            // Reveal everything — end the game
+            var correctIds = target.ids ? target.ids : [target.id];
+            for (var ri = 0; ri < correctIds.length; ri++) {
+                var rPaths = document.querySelectorAll(
+                    'path[data-iso="' + correctIds[ri].toUpperCase() + '"]',
+                );
+                for (var rj = 0; rj < rPaths.length; rj++) {
+                    rPaths[rj].classList.add("correct");
+                }
+            }
+            countryGuessed = true;
+            var yearInput = document.getElementById("hg-timeline-year");
+            if (yearInput) yearInput.value = target.year;
+            if (window.hgScrollToYear) window.hgScrollToYear(target.year);
+            gameActive = false;
+            document.getElementById("hg-submit-btn").disabled = true;
+            hgShowModal(false);
+        }
+    });
+
     document.getElementById("hint-1").addEventListener("click", function () {
         hgDoHint(1);
     });
